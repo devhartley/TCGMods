@@ -1,11 +1,135 @@
 {
   "format": 1,
   "name": "Our mod pack",
-  "version": "1",
+  "version": "1.1",
   "gameVersion": "1.03",
-  "notes": "",
-  "published": "2026-11-05T16:27:35.677Z",
+  "notes": "Added EPL API",
+  "published": "2026-11-05T21:21:26.141Z",
   "mods": [
+    {
+      "id": "bepinex",
+      "name": "BepInEx",
+      "version": "5.4.23.1",
+      "core": true,
+      "files": [
+        {
+          "path": "winhttp.dll",
+          "size": 26112,
+          "sha256": "d3b62f4c9c3e2196ef82603c52d6b98c043a0d6c125c081fd33d7ca3798b41b8"
+        },
+        {
+          "path": "doorstop_config.ini",
+          "size": 1460,
+          "sha256": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc"
+        },
+        {
+          "path": ".doorstop_version",
+          "size": 5,
+          "sha256": "2744735fee2ee237e29f592f88ab669dc8d478fca31e6da4caf9a4a1b3abb7f1"
+        },
+        {
+          "path": "changelog.txt",
+          "size": 170,
+          "sha256": "903484d2b5053a31037a33d3e0b44f4f85dde99211b18bbefad92f1cc88cb2e6"
+        },
+        {
+          "path": "BepInEx/core/0Harmony.dll",
+          "size": 204800,
+          "sha256": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031"
+        },
+        {
+          "path": "BepInEx/core/0Harmony.xml",
+          "size": 267107,
+          "sha256": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f"
+        },
+        {
+          "path": "BepInEx/core/0Harmony20.dll",
+          "size": 111616,
+          "sha256": "d256c5373692a184018f171144712460ced1a6f01562fde26e742b077b36cbd6"
+        },
+        {
+          "path": "BepInEx/core/BepInEx.dll",
+          "size": 127488,
+          "sha256": "c65b42034bc8ffb9f0b336e416dc3884e3f99fc5a5a89eb1f2ff7868412322cd"
+        },
+        {
+          "path": "BepInEx/core/BepInEx.Harmony.dll",
+          "size": 5632,
+          "sha256": "d0739c4a13f369094cb164c205ee4cca5392bdd7241b9f242ee13f0d4c0b1856"
+        },
+        {
+          "path": "BepInEx/core/BepInEx.Harmony.xml",
+          "size": 4056,
+          "sha256": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29"
+        },
+        {
+          "path": "BepInEx/core/BepInEx.Preloader.dll",
+          "size": 42496,
+          "sha256": "116f8b879b1b87566f5ce30106fc5d5718da69d3870315d184a4460379a765c7"
+        },
+        {
+          "path": "BepInEx/core/BepInEx.Preloader.xml",
+          "size": 7964,
+          "sha256": "5ccaffcef1c41292d94931b24f140ca82b47a879e3439e89293285054490eb0a"
+        },
+        {
+          "path": "BepInEx/core/BepInEx.xml",
+          "size": 89835,
+          "sha256": "c0c7799bbaf1e37398f85f0ba8e02d8136c55a3165db87063942e3fedda0a68c"
+        },
+        {
+          "path": "BepInEx/core/HarmonyXInterop.dll",
+          "size": 23552,
+          "sha256": "4d6175fa6dfee743423380f62fb5cc7f1811b469748538bd1b974ded34f3f907"
+        },
+        {
+          "path": "BepInEx/core/Mono.Cecil.dll",
+          "size": 339456,
+          "sha256": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6"
+        },
+        {
+          "path": "BepInEx/core/Mono.Cecil.Mdb.dll",
+          "size": 43008,
+          "sha256": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e"
+        },
+        {
+          "path": "BepInEx/core/Mono.Cecil.Pdb.dll",
+          "size": 86528,
+          "sha256": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984"
+        },
+        {
+          "path": "BepInEx/core/Mono.Cecil.Rocks.dll",
+          "size": 27648,
+          "sha256": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927"
+        },
+        {
+          "path": "BepInEx/core/MonoMod.RuntimeDetour.dll",
+          "size": 105984,
+          "sha256": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c"
+        },
+        {
+          "path": "BepInEx/core/MonoMod.RuntimeDetour.xml",
+          "size": 9414,
+          "sha256": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4"
+        },
+        {
+          "path": "BepInEx/core/MonoMod.Utils.dll",
+          "size": 187904,
+          "sha256": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9"
+        },
+        {
+          "path": "BepInEx/core/MonoMod.Utils.xml",
+          "size": 78973,
+          "sha256": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38"
+        }
+      ],
+      "sha256": "04dd95fc0bb5dd2135de54de9996fc5a3aace4f9afc0a4066affacd5e875021c",
+      "size": 627786,
+      "source": {
+        "type": "mega",
+        "url": "https://mega.nz/file/viQHkIKY#J5D3O1EWkFG2P_KLvC2IJ57Gp6pBYh_s3SteULM_k6o"
+      }
+    },
     {
       "id": "nexus-698",
       "name": "BepInEx Mod Manager",
@@ -48,7 +172,6 @@
           "sha256": "62196b9297a84a4943cbaa11889e3a17d3b3ebe021b13bae9e2b90f62d66522d"
         }
       ],
-      "nexusMod": 1728,
       "sha256": "73790866ab3434a906f5b814f34e225a082eef179ea06f8ff8e7745f93ea1c04",
       "size": 2024836,
       "source": {
@@ -147,33 +270,6 @@
       "id": "nexus-1593",
       "name": "FpsCollector",
       "version": "1.0.0",
-      "files": [
-        {
-          "path": "BepInEx/plugins/FpsCollector/CHANGELOG.md",
-          "size": 4762,
-          "sha256": "1e254bdc8ed75c8d82fcf3dea5e2c66b01e8f55583853e03f97b7333d0db2aa1"
-        },
-        {
-          "path": "BepInEx/plugins/FpsCollector/fpscollector-stock-shader",
-          "size": 20723,
-          "sha256": "59bea2c9ac37b9a354c39dba8f18ed74a8b4545e09fce7892f997cdfc987acfb"
-        },
-        {
-          "path": "BepInEx/plugins/FpsCollector/FpsCollector.dll",
-          "size": 297984,
-          "sha256": "a038006443207fea57499508f63a83b0fab59d41a77758abe19c088d39a7fb55"
-        },
-        {
-          "path": "BepInEx/plugins/FpsCollector/LICENSE",
-          "size": 1076,
-          "sha256": "7f3938a7fdb4c48e7d31124e7138e756af5d888021b057f796b990b52085975a"
-        },
-        {
-          "path": "BepInEx/plugins/FpsCollector/README.md",
-          "size": 24239,
-          "sha256": "b923e9586b004e6bfac3c8696fcec23bec3567ec54fc2537fd335b78683388dd"
-        }
-      ],
       "nexusMod": 1593,
       "sha256": "5fdda3bf5e35fdb673950be59d917fcbd13a64d2af5af624b578779ec262c64c",
       "size": 141338,
@@ -193,7 +289,6 @@
           "sha256": "01656d170baad983984acdfd8fc8814f58a74da6133728d5182ff31e626b9ec2"
         }
       ],
-      "nexusMod": 1592,
       "sha256": "cf4ec95a30663e265ef65964f176448f5fd9ab0911ab0200ba44425d531017f7",
       "size": 12253350,
       "source": {
@@ -321,16 +416,6 @@
           "sha256": "c01ab8e75b5df7a95062661bf85ad515d285e3274fef456ba5e39068d1507fed"
         },
         {
-          "path": "BepInEx/plugins/Phone - Overhaul/App Images/MyCurioPokemon/Clear.png",
-          "size": 334,
-          "sha256": "aebc86755d7beb8b01bcd992ab44e1133afcb473511b7832eb82228be275473f"
-        },
-        {
-          "path": "BepInEx/plugins/Phone - Overhaul/App Images/MyCurioPokemon/Pokemon Factory Icon.png",
-          "size": 144616,
-          "sha256": "cd97361a2c8c17553bc577155e5207d34d51830603d5191ae22e3aeea994a117"
-        },
-        {
           "path": "BepInEx/plugins/Phone - Overhaul/App Images/Notifications/IBG.png",
           "size": 48640,
           "sha256": "3646627cc58d57602195e389b5c568e668ba015e0e9cc25a550ba2889703b34a"
@@ -437,11 +522,11 @@
         }
       ],
       "nexusMod": 685,
-      "sha256": "d35b41647390a129c1109ec3a7e456ef797ec1c6c4f1c3ff4ff3b975b73a0980",
-      "size": 56431572,
+      "sha256": "1935339fa7ff6b74ea83e087514d498c214483087b4472639abbc616d447b3a5",
+      "size": 56291363,
       "source": {
         "type": "mega",
-        "url": "https://mega.nz/file/Szx2TbKb#kkm9m6KyXrfrubRxi9kn1j3DiYeQ8cWAQTYIsUMo5Co"
+        "url": "https://mega.nz/file/zzZXjLgT#pKwy9u3RlqMXRJ67cbjafM-u7Llb3seA0vMayqOwL6I"
       }
     },
     {
@@ -460,7 +545,6 @@
           "sha256": "d80a256b785c6a08e148c67aacb380fd01ee40db6b38c1323dca968ba8ea4833"
         }
       ],
-      "nexusMod": 1752,
       "sha256": "e0f850f8d588d631307c77eae0a000867a6feecab594830ff819d7880534d4c8",
       "size": 963980,
       "source": {
@@ -504,7 +588,6 @@
           "sha256": "66674953fe251b89f4d08c5f0e35e0728679bd67ab3d7d05c0562af101dd3e7a"
         }
       ],
-      "nexusMod": 1754,
       "sha256": "58ac35d644559bb168da3a5ae9b138e912aca38f9b4cf5a1a27b890d1d732b83",
       "size": 22839732,
       "source": {
@@ -1036,25 +1119,6 @@
       }
     },
     {
-      "id": "nexus-1639",
-      "name": "MyCurio Pokefactory",
-      "version": "2.1.2",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioPokefactory/MyCurioPokefactory.dll",
-          "size": 31232,
-          "sha256": "9751ee38d47ed7a910c7487c7a3505e2d6392f4d7afd66bc5784683fd2d1d6bc"
-        }
-      ],
-      "nexusMod": 1639,
-      "sha256": "00be24ec44d563b9395f64abd43492c912caf1084dc8abf86aefc3d50b3e3504",
-      "size": 14922,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/HrBwQK5I#u9QzSOBcBBIJjMDNGFLT9mjTrKNoDCVinwH04dEpgTM"
-      }
-    },
-    {
       "id": "nexus-1555",
       "name": "Configuration Manager",
       "version": "18.3",
@@ -1225,130 +1289,6 @@
       }
     },
     {
-      "id": "bepinex",
-      "name": "BepInEx",
-      "version": "5.4.23.1",
-      "core": true,
-      "files": [
-        {
-          "path": "winhttp.dll",
-          "size": 26112,
-          "sha256": "d3b62f4c9c3e2196ef82603c52d6b98c043a0d6c125c081fd33d7ca3798b41b8"
-        },
-        {
-          "path": "doorstop_config.ini",
-          "size": 1460,
-          "sha256": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc"
-        },
-        {
-          "path": ".doorstop_version",
-          "size": 5,
-          "sha256": "2744735fee2ee237e29f592f88ab669dc8d478fca31e6da4caf9a4a1b3abb7f1"
-        },
-        {
-          "path": "changelog.txt",
-          "size": 170,
-          "sha256": "903484d2b5053a31037a33d3e0b44f4f85dde99211b18bbefad92f1cc88cb2e6"
-        },
-        {
-          "path": "BepInEx/core/0Harmony.dll",
-          "size": 204800,
-          "sha256": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031"
-        },
-        {
-          "path": "BepInEx/core/0Harmony.xml",
-          "size": 267107,
-          "sha256": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f"
-        },
-        {
-          "path": "BepInEx/core/0Harmony20.dll",
-          "size": 111616,
-          "sha256": "d256c5373692a184018f171144712460ced1a6f01562fde26e742b077b36cbd6"
-        },
-        {
-          "path": "BepInEx/core/BepInEx.dll",
-          "size": 127488,
-          "sha256": "c65b42034bc8ffb9f0b336e416dc3884e3f99fc5a5a89eb1f2ff7868412322cd"
-        },
-        {
-          "path": "BepInEx/core/BepInEx.Harmony.dll",
-          "size": 5632,
-          "sha256": "d0739c4a13f369094cb164c205ee4cca5392bdd7241b9f242ee13f0d4c0b1856"
-        },
-        {
-          "path": "BepInEx/core/BepInEx.Harmony.xml",
-          "size": 4056,
-          "sha256": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29"
-        },
-        {
-          "path": "BepInEx/core/BepInEx.Preloader.dll",
-          "size": 42496,
-          "sha256": "116f8b879b1b87566f5ce30106fc5d5718da69d3870315d184a4460379a765c7"
-        },
-        {
-          "path": "BepInEx/core/BepInEx.Preloader.xml",
-          "size": 7964,
-          "sha256": "5ccaffcef1c41292d94931b24f140ca82b47a879e3439e89293285054490eb0a"
-        },
-        {
-          "path": "BepInEx/core/BepInEx.xml",
-          "size": 89835,
-          "sha256": "c0c7799bbaf1e37398f85f0ba8e02d8136c55a3165db87063942e3fedda0a68c"
-        },
-        {
-          "path": "BepInEx/core/HarmonyXInterop.dll",
-          "size": 23552,
-          "sha256": "4d6175fa6dfee743423380f62fb5cc7f1811b469748538bd1b974ded34f3f907"
-        },
-        {
-          "path": "BepInEx/core/Mono.Cecil.dll",
-          "size": 339456,
-          "sha256": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6"
-        },
-        {
-          "path": "BepInEx/core/Mono.Cecil.Mdb.dll",
-          "size": 43008,
-          "sha256": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e"
-        },
-        {
-          "path": "BepInEx/core/Mono.Cecil.Pdb.dll",
-          "size": 86528,
-          "sha256": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984"
-        },
-        {
-          "path": "BepInEx/core/Mono.Cecil.Rocks.dll",
-          "size": 27648,
-          "sha256": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927"
-        },
-        {
-          "path": "BepInEx/core/MonoMod.RuntimeDetour.dll",
-          "size": 105984,
-          "sha256": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c"
-        },
-        {
-          "path": "BepInEx/core/MonoMod.RuntimeDetour.xml",
-          "size": 9414,
-          "sha256": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4"
-        },
-        {
-          "path": "BepInEx/core/MonoMod.Utils.dll",
-          "size": 187904,
-          "sha256": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9"
-        },
-        {
-          "path": "BepInEx/core/MonoMod.Utils.xml",
-          "size": 78973,
-          "sha256": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38"
-        }
-      ],
-      "sha256": "04dd95fc0bb5dd2135de54de9996fc5a3aace4f9afc0a4066affacd5e875021c",
-      "size": 627786,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/viQHkIKY#J5D3O1EWkFG2P_KLvC2IJ57Gp6pBYh_s3SteULM_k6o"
-      }
-    },
-    {
       "id": "nexus-867",
       "name": "Collection Tracker",
       "version": "3.1.4",
@@ -1426,7 +1366,7 @@
     {
       "id": "nexus-1735-9205",
       "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (XY maps)",
-      "version": "1.5.1",
+      "version": "1.4.1",
       "fileName": "XY maps",
       "fileCategory": "OPTIONAL",
       "files": [
@@ -1588,7 +1528,7 @@
     {
       "id": "nexus-1735-8766",
       "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (Base maps)",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "fileName": "Base maps",
       "fileCategory": "OPTIONAL",
       "files": [
@@ -1644,7 +1584,7 @@
     {
       "id": "nexus-1735-8765",
       "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (Neo maps)",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "fileName": "Neo maps",
       "fileCategory": "OPTIONAL",
       "files": [
@@ -1718,7 +1658,7 @@
     {
       "id": "nexus-1735-8764",
       "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (e-Card maps)",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "fileName": "e-Card maps",
       "fileCategory": "OPTIONAL",
       "files": [
@@ -1759,7 +1699,7 @@
     {
       "id": "nexus-1735-8763",
       "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (EX maps)",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "fileName": "EX maps",
       "fileCategory": "OPTIONAL",
       "files": [
@@ -1865,7 +1805,7 @@
     {
       "id": "nexus-1735-8762",
       "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (Diamond and Pearl maps)",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "fileName": "Diamond and Pearl maps",
       "fileCategory": "OPTIONAL",
       "files": [
@@ -1946,7 +1886,7 @@
     {
       "id": "nexus-1735-8761",
       "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (HeartGold and SoulSilver maps)",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "fileName": "HeartGold and SoulSilver maps",
       "fileCategory": "OPTIONAL",
       "files": [
@@ -1997,7 +1937,7 @@
     {
       "id": "nexus-1735-8760",
       "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (Black and White maps)",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "fileName": "Black and White maps",
       "fileCategory": "OPTIONAL",
       "files": [
@@ -2083,7 +2023,7 @@
     {
       "id": "nexus-1735-8758",
       "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (Sun and Moon maps)",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "fileName": "Sun and Moon maps",
       "fileCategory": "OPTIONAL",
       "files": [
@@ -2189,7 +2129,7 @@
     {
       "id": "nexus-1735-8757",
       "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (Sword and Shield maps)",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "fileName": "Sword and Shield maps",
       "fileCategory": "OPTIONAL",
       "files": [
@@ -2300,7 +2240,7 @@
     {
       "id": "nexus-1735-8755",
       "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (Scarlet and Violet maps)",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "fileName": "Scarlet and Violet maps",
       "fileCategory": "OPTIONAL",
       "files": [
@@ -5722,7 +5662,7 @@
     {
       "id": "004-mimikyuplushie-prefabloader",
       "name": "004_MimikyuPlushie_prefabloader",
-      "version": "?",
+      "version": "1",
       "files": [
         {
           "path": "BepInEx/plugins/004_MimikyuPlushie_prefabloader/mimikyuplushie",
@@ -5745,7 +5685,7 @@
     {
       "id": "005-gengarplushie-prefabloader",
       "name": "005_GengarPlushie_prefabloader",
-      "version": "?",
+      "version": "1",
       "files": [
         {
           "path": "BepInEx/plugins/005_GengarPlushie_prefabloader/gengarplush",
@@ -5763,6 +5703,102 @@
       "source": {
         "type": "mega",
         "url": "https://mega.nz/file/DmYyXAqL#SACFWtRwo0pSv3oOJl6X_JJgtz20wYuWyXfdmXHBVh4"
+      }
+    },
+    {
+      "id": "nexus-1593-2",
+      "name": "FPS Collector (Performance Overhaul)",
+      "version": "2",
+      "fileName": "FpsCollector 2.0.0",
+      "fileCategory": "MAIN",
+      "group": "FPS Collector (Performance Overhaul)",
+      "files": [
+        {
+          "path": "BepInEx/plugins/FpsCollector/CHANGELOG.md",
+          "size": 1839,
+          "sha256": "7d2d9afa78aa0e435f9e03b4f0db8768f4e3a0abd76fd4182494293ac3999c5c"
+        },
+        {
+          "path": "BepInEx/plugins/FpsCollector/fpscollector-stock-shader",
+          "size": 25841,
+          "sha256": "4f6687f34c6cdb2aea347c524726754d03146d86d7d4958350cf8dee80137af4"
+        },
+        {
+          "path": "BepInEx/plugins/FpsCollector/FpsCollector.dll",
+          "size": 569856,
+          "sha256": "b0d712262698fbd86001c5ed5c196c631ba1635917cad421064ce3c6fea2796a"
+        },
+        {
+          "path": "BepInEx/plugins/FpsCollector/LICENSE",
+          "size": 1076,
+          "sha256": "7f3938a7fdb4c48e7d31124e7138e756af5d888021b057f796b990b52085975a"
+        },
+        {
+          "path": "BepInEx/plugins/FpsCollector/README.md",
+          "size": 25200,
+          "sha256": "a87dd6e2853a683afa38146e886b1560f81fb9054a52e1ff23b2aec0a2953bf1"
+        }
+      ],
+      "nexusMod": 1593,
+      "sha256": "ebad070dabeb60be795c00ca91ad32bcb223036478415ef2b7150529c1e560fb",
+      "size": 240712,
+      "source": {
+        "type": "mega",
+        "url": "https://mega.nz/file/euYUhIpJ#UvcDnT4qEmgPpNRqZ6OpWmENsbt6q1ZH0p4Fruii2es"
+      }
+    },
+    {
+      "id": "nexus-1639",
+      "name": "MyCurio Pokefactory",
+      "version": "2.1.7",
+      "fileName": "Pokefactory phone app",
+      "fileCategory": "MAIN",
+      "group": "Pokefactory - Shop App for MyCurio Pokemon Sets",
+      "files": [
+        {
+          "path": "BepInEx/plugins/MyCurioPokefactory/MyCurioPokefactory.dll",
+          "size": 33792,
+          "sha256": "86391700b537e31b61178a1e5a4b3bbacc95e9f16808202625ee37fae1da6e3b"
+        },
+        {
+          "path": "BepInEx/plugins/Phone - Overhaul/App Images/MyCurioPokemon/Clear.png",
+          "size": 334,
+          "sha256": "aebc86755d7beb8b01bcd992ab44e1133afcb473511b7832eb82228be275473f"
+        },
+        {
+          "path": "BepInEx/plugins/Phone - Overhaul/App Images/MyCurioPokemon/Pokemon Factory Icon.png",
+          "size": 144616,
+          "sha256": "cd97361a2c8c17553bc577155e5207d34d51830603d5191ae22e3aeea994a117"
+        }
+      ],
+      "nexusMod": 1639,
+      "sha256": "c9617da1e961da27809cfb486bba4dc18a1bfa2276ed8d3799aea26d1fe7c8c0",
+      "size": 156404,
+      "source": {
+        "type": "mega",
+        "url": "https://mega.nz/file/S3Q12ThT#DG_0kXLZlxJj_Qd8NZfVCqvRsEHmUd0puG2Y5hnojOE"
+      }
+    },
+    {
+      "id": "nexus-1144",
+      "name": "EPL API",
+      "version": "6.5.0",
+      "fileName": "EnhancedPrefabLoader API",
+      "fileCategory": "MAIN",
+      "group": "EPL API",
+      "files": [
+        {
+          "path": "BepInEx/plugins/EnhancedPrefabLoader.API/EnhancedPrefabLoader.API.dll",
+          "size": 33792,
+          "sha256": "b073928845e5f9349750f2e9e7b6c815cdc5de7f754d1178636a69bbb02dfed9"
+        }
+      ],
+      "nexusMod": 1144,
+      "sha256": "97458909a6fb021b14801c84fa2688ecd74c452039f72980a4b8763ae7c35ab9",
+      "size": 14636,
+      "source": {
+        "type": "mega",
+        "url": "https://mega.nz/file/ayxHyLSY#5HJnZ7DqJ0kFOHcXXRA5xQ3kjGYcIagYOV6VkertD9M"
       }
     }
   ]
