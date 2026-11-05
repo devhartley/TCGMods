@@ -1,10 +1,10 @@
 {
   "format": 1,
   "name": "Our mod pack",
-  "version": "1.1",
+  "version": "1.2",
   "gameVersion": "1.03",
-  "notes": "Added EPL API",
-  "published": "2026-11-05T21:21:26.141Z",
+  "notes": "Fix bepinx plugin folder",
+  "published": "2026-11-05T21:22:44.116Z",
   "mods": [
     {
       "id": "bepinex",
@@ -123,11 +123,11 @@
           "sha256": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38"
         }
       ],
-      "sha256": "04dd95fc0bb5dd2135de54de9996fc5a3aace4f9afc0a4066affacd5e875021c",
-      "size": 627786,
+      "sha256": "4e92ab6d530893ed9b7667834c217ea7952932d4645a3188d7f096b5214cf5e0",
+      "size": 639098,
       "source": {
         "type": "mega",
-        "url": "https://mega.nz/file/viQHkIKY#J5D3O1EWkFG2P_KLvC2IJ57Gp6pBYh_s3SteULM_k6o"
+        "url": "https://mega.nz/file/XuZhWQjL#zcxm2ketZxnZfBWBGSk-uxtPUo4bR3XMx2vGbkSxvCI"
       }
     },
     {
