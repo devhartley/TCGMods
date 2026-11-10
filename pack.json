@@ -1,10 +1,10 @@
 {
   "format": 1,
   "name": "Our mod pack",
-  "version": "1.2",
+  "version": "1.3",
   "gameVersion": "1.03",
-  "notes": "Fix bepinx plugin folder",
-  "published": "2026-11-05T21:23:02.703Z",
+  "notes": "Mod updates + grading card company",
+  "published": "2026-11-10T19:40:10.895Z",
   "mods": [
     {
       "id": "bepinex",
@@ -157,29 +157,6 @@
       }
     },
     {
-      "id": "qol-cardgrade-overhaul",
-      "name": "CardGrade Overhaul",
-      "version": "1.2.4",
-      "files": [
-        {
-          "path": "BepInEx/plugins/CardGradeOverhaul/CardGradeOverhaul.dll",
-          "size": 2761728,
-          "sha256": "7fb8e15cf0527d6526d45fc693b7d45a26e90894d26785134149c2eb5f103b34"
-        },
-        {
-          "path": "BepInEx/plugins/CardGradeOverhaul/README.txt",
-          "size": 12267,
-          "sha256": "62196b9297a84a4943cbaa11889e3a17d3b3ebe021b13bae9e2b90f62d66522d"
-        }
-      ],
-      "sha256": "73790866ab3434a906f5b814f34e225a082eef179ea06f8ff8e7745f93ea1c04",
-      "size": 2024836,
-      "source": {
-        "type": "qol",
-        "id": "cardgrade-overhaul"
-      }
-    },
-    {
       "id": "nexus-975",
       "name": "Customer Manager",
       "version": "1.0.1",
@@ -276,24 +253,6 @@
       "source": {
         "type": "mega",
         "url": "https://mega.nz/file/yiQBwZZL#ZqJFR_hAPlXYr7kc1BzbKl2lktygUS7n2WjclKo5usA"
-      }
-    },
-    {
-      "id": "qol-furniture-overhaul",
-      "name": "Furniture Overhaul",
-      "version": "1.7.10",
-      "files": [
-        {
-          "path": "BepInEx/plugins/FurnitureOverhaul/FurnitureOverhaul.dll",
-          "size": 19628544,
-          "sha256": "01656d170baad983984acdfd8fc8814f58a74da6133728d5182ff31e626b9ec2"
-        }
-      ],
-      "sha256": "cf4ec95a30663e265ef65964f176448f5fd9ab0911ab0200ba44425d531017f7",
-      "size": 12253350,
-      "source": {
-        "type": "qol",
-        "id": "furniture-overhaul"
       }
     },
     {
@@ -527,72 +486,6 @@
       "source": {
         "type": "mega",
         "url": "https://mega.nz/file/zzZXjLgT#pKwy9u3RlqMXRJ67cbjafM-u7Llb3seA0vMayqOwL6I"
-      }
-    },
-    {
-      "id": "qol-coop",
-      "name": "QOL Co-op",
-      "version": "1.0.6",
-      "files": [
-        {
-          "path": "BepInEx/plugins/QOLCoop/QOLCoop.dll",
-          "size": 1188352,
-          "sha256": "a49143e6a7753f0e7eb01a058e386518aee453bfb13b1898702e8d9dc1d86bfd"
-        },
-        {
-          "path": "BepInEx/plugins/QOLCoop/README.txt",
-          "size": 7210,
-          "sha256": "d80a256b785c6a08e148c67aacb380fd01ee40db6b38c1323dca968ba8ea4833"
-        }
-      ],
-      "sha256": "e0f850f8d588d631307c77eae0a000867a6feecab594830ff819d7880534d4c8",
-      "size": 963980,
-      "source": {
-        "type": "qol",
-        "id": "coop"
-      }
-    },
-    {
-      "id": "qol-shopos",
-      "name": "QOL ShopOS",
-      "version": "1.2.1",
-      "files": [
-        {
-          "path": "BepInEx/plugins/ShopOS/API.md",
-          "size": 6385,
-          "sha256": "a462ad2d748489906875b9c6f6f4590e2621e7216faba7df03fbd6a1c2e89641"
-        },
-        {
-          "path": "BepInEx/plugins/ShopOS/LICENSES.txt",
-          "size": 255494,
-          "sha256": "c93bc2ed8c48f202f46a14a96229a02f7db24a4539aac75c68a40547ce905d03"
-        },
-        {
-          "path": "BepInEx/plugins/ShopOS/README.txt",
-          "size": 13109,
-          "sha256": "c04a6ab53b8d082f9b331c9e42f6a8d1b2939a8241bbabaa6bb553e03db01fed"
-        },
-        {
-          "path": "BepInEx/plugins/ShopOS/ShopOS.dll",
-          "size": 4877312,
-          "sha256": "22fd9b9e163343bbec81e219da7183e8cc50c979a588afba056c93028bedb8e7"
-        },
-        {
-          "path": "BepInEx/plugins/ShopOS/tools/qjs.exe",
-          "size": 2151363,
-          "sha256": "2aeabf0092c3262d6b2609824418f7dd7ed1f1df939f73b2b15645230cac0d77"
-        },
-        {
-          "path": "BepInEx/plugins/ShopOS/tools/yt-dlp.exe",
-          "size": 17840399,
-          "sha256": "66674953fe251b89f4d08c5f0e35e0728679bd67ab3d7d05c0562af101dd3e7a"
-        }
-      ],
-      "sha256": "58ac35d644559bb168da3a5ae9b138e912aca38f9b4cf5a1a27b890d1d732b83",
-      "size": 22839732,
-      "source": {
-        "type": "qol",
-        "id": "shopos"
       }
     },
     {
@@ -1181,60 +1074,6 @@
       }
     },
     {
-      "id": "qol-purchase-overhaul",
-      "name": "Purchase Overhaul",
-      "version": "1.3.4",
-      "files": [
-        {
-          "path": "BepInEx/plugins/PurchaseOverhaul/PurchaseOverhaul.dll",
-          "size": 475136,
-          "sha256": "86d3bb6c8d07b2b0e139d7b7ce00f4b747aad663db671225534340108d7df313"
-        }
-      ],
-      "sha256": "3e57ee570229e6dd1d6a2ecb1ab30d75c86ef658858ae96ff20e73e786e8bc7d",
-      "size": 355707,
-      "source": {
-        "type": "qol",
-        "id": "purchase-overhaul"
-      }
-    },
-    {
-      "id": "qol-pallet-delivery",
-      "name": "Pallet Delivery",
-      "version": "1.2.3",
-      "files": [
-        {
-          "path": "BepInEx/plugins/PalletDelivery/PalletDelivery.dll",
-          "size": 214016,
-          "sha256": "bd99897c167fc727ef013f0f70e6f4973611559f2aecfe5d1a2cedea58f50017"
-        }
-      ],
-      "sha256": "4d75152c75ab6f22621ae7f2a261817e21cb28152401b0fb53c354591c8f7be6",
-      "size": 97245,
-      "source": {
-        "type": "qol",
-        "id": "pallet-delivery"
-      }
-    },
-    {
-      "id": "qol-upstairs",
-      "name": "Upstairs",
-      "version": "1.4.9",
-      "files": [
-        {
-          "path": "BepInEx/plugins/Upstairs/Upstairs.dll",
-          "size": 5657600,
-          "sha256": "a996472f3b55525679411021985209df3e129eacdd462bfd3bd4603c2297d7f3"
-        }
-      ],
-      "sha256": "689aecf40e0900f0abb5f78833a088a1831db3e6cd192e2faacff969086999b1",
-      "size": 651248,
-      "source": {
-        "type": "qol",
-        "id": "upstairs"
-      }
-    },
-    {
       "id": "qol-enhanced-binder",
       "name": "Enhanced Binder",
       "version": "2.0.6",
@@ -1309,32 +1148,6 @@
       "source": {
         "type": "qol",
         "id": "collection-tracker"
-      }
-    },
-    {
-      "id": "nexus-1748",
-      "name": "Chubs Real Prices",
-      "version": "0.3.81",
-      "fileName": "ChubsRealPrices 0.3.81",
-      "fileCategory": "MAIN",
-      "files": [
-        {
-          "path": "BepInEx/plugins/ChubsRealPrices/ChubsRealPrices.dll",
-          "size": 28241408,
-          "sha256": "7ab816b6dd11d278032876968812e529c09cf639f5a9d29a3282640e5cdb4d1f"
-        },
-        {
-          "path": "BepInEx/plugins/ChubsRealPrices/README.txt",
-          "size": 1153,
-          "sha256": "dfae685d602c75003b26c50613d006154bd7074f7bec489368135908ce23414f"
-        }
-      ],
-      "nexusMod": 1748,
-      "sha256": "babbd899cba6fc05b5d81a4d82648df9300905a66470b6753fdf846d6a5381e0",
-      "size": 4236576,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/vmBHHbCI#VEAetrO4a4ChtFIT7cxkyIk8QIhpfUPt63YYzFATjJQ"
       }
     },
     {
@@ -1635,24 +1448,6 @@
       "source": {
         "type": "mega",
         "url": "https://mega.nz/file/6jQwGYoC#olEhVBpUxyhPqXC-iYLMTCXjtZNYlilIPoPdtZjRCno"
-      }
-    },
-    {
-      "id": "qol-events-weather",
-      "name": "QOL Events & Weather",
-      "version": "1.0.1",
-      "files": [
-        {
-          "path": "BepInEx/plugins/QOLEventsAndWeather/QOLEventsAndWeather.dll",
-          "size": 5703680,
-          "sha256": "61f36ad7c676366a065c46f3990a4fb238975514a973b8ba212f8902c0a9ecf5"
-        }
-      ],
-      "sha256": "aa1974b7a8c095fb06f48eda0fa3afe75a29f2dc2ba204e37f579e47e5106c10",
-      "size": 4982282,
-      "source": {
-        "type": "qol",
-        "id": "events-weather"
       }
     },
     {
@@ -5611,28 +5406,6 @@
       }
     },
     {
-      "id": "nexus-1734",
-      "name": "MyCurio Products",
-      "version": "1.0.9",
-      "fileName": "MyCurio Products",
-      "fileCategory": "MAIN",
-      "group": "MyCurio Products - Mixed Boxes and Fixed-List Packs",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioProducts/MyCurioProducts.dll",
-          "size": 83968,
-          "sha256": "1110ac6bc6012d9c63579f287beea73208542c6617fc4b1eae7debb46d50fcab"
-        }
-      ],
-      "nexusMod": 1734,
-      "sha256": "c2c63b0d0082ba02c88fb71c30e62a98c4511daeee0ec1468d8b58465c4f7e38",
-      "size": 30391,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/v2JDCDrB#1a9vYRV8c6pvxjRwt11NhRJPVfdjB9idXjFv6axRIWI"
-      }
-    },
-    {
       "id": "nexus-1892",
       "name": "Pokemon TCG - Base Era",
       "version": "1.1.0",
@@ -5748,9 +5521,213 @@
       }
     },
     {
+      "id": "nexus-1144",
+      "name": "EPL API",
+      "version": "6.5.0",
+      "fileName": "EnhancedPrefabLoader API",
+      "fileCategory": "MAIN",
+      "group": "EPL API",
+      "files": [
+        {
+          "path": "BepInEx/plugins/EnhancedPrefabLoader.API/EnhancedPrefabLoader.API.dll",
+          "size": 33792,
+          "sha256": "b073928845e5f9349750f2e9e7b6c815cdc5de7f754d1178636a69bbb02dfed9"
+        }
+      ],
+      "nexusMod": 1144,
+      "sha256": "97458909a6fb021b14801c84fa2688ecd74c452039f72980a4b8763ae7c35ab9",
+      "size": 14636,
+      "source": {
+        "type": "mega",
+        "url": "https://mega.nz/file/ayxHyLSY#5HJnZ7DqJ0kFOHcXXRA5xQ3kjGYcIagYOV6VkertD9M"
+      }
+    },
+    {
+      "id": "qol-grading-company",
+      "name": "QOL Grading Company",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": "BepInEx/plugins/QOLGradingCompany/QOLGradingCompany.dll",
+          "size": 27020800,
+          "sha256": "72b816be56567d54664fab35dcb12fab1cfb46a4168631b58966782caf8f0444"
+        }
+      ],
+      "sha256": "392fbe08b3e7e6a08f9092449fecbf7b97734929560d5221966ca81182f102c6",
+      "size": 24049579,
+      "source": {
+        "type": "qol",
+        "id": "grading-company"
+      }
+    },
+    {
+      "id": "qol-events-weather",
+      "name": "QOL Events & Weather",
+      "version": "1.0.2",
+      "files": [
+        {
+          "path": "BepInEx/plugins/QOLEventsAndWeather/QOLEventsAndWeather.dll",
+          "size": 5705216,
+          "sha256": "0edc1ce83b1495733cd1abb3a32cdfbe1aa01527b252b4cd2191e43744c4912a"
+        }
+      ],
+      "sha256": "c21e6b2f659b24b4904f28296a42f6133e5fc0aa1ba0d9e2535d4b8b81d753d9",
+      "size": 4983107,
+      "source": {
+        "type": "qol",
+        "id": "events-weather"
+      }
+    },
+    {
+      "id": "qol-furniture-overhaul",
+      "name": "Furniture Overhaul",
+      "version": "1.7.11",
+      "files": [
+        {
+          "path": "BepInEx/plugins/FurnitureOverhaul/FurnitureOverhaul.dll",
+          "size": 19833344,
+          "sha256": "d51397c70a0ec6e60ac24981914be638e153962b93c3be2871895307bd5b08fa"
+        }
+      ],
+      "sha256": "3c6678fe9fcf4842e303715b4bd54f2b7fc7f9e89c1fbca86778f0f0eaedc913",
+      "size": 12335330,
+      "source": {
+        "type": "qol",
+        "id": "furniture-overhaul"
+      }
+    },
+    {
+      "id": "qol-upstairs",
+      "name": "Upstairs",
+      "version": "1.4.10",
+      "files": [
+        {
+          "path": "BepInEx/plugins/Upstairs/Upstairs.dll",
+          "size": 5663232,
+          "sha256": "e344f3ffb94b7078196e7b07a50281a4f2237b98f9e0742e68978f05b30fb514"
+        }
+      ],
+      "sha256": "243cce4da413db44359fb1a143c3c1c2a46915bd386bee64ac0bbb5bc0bcd9ed",
+      "size": 652629,
+      "source": {
+        "type": "qol",
+        "id": "upstairs"
+      }
+    },
+    {
+      "id": "qol-pallet-delivery",
+      "name": "Pallet Delivery",
+      "version": "1.2.4",
+      "files": [
+        {
+          "path": "BepInEx/plugins/PalletDelivery/PalletDelivery.dll",
+          "size": 215552,
+          "sha256": "628edbc8b18eb715185fa93ea74c5ea6dc0754f803f1da66eca98ddf9120e0ab"
+        }
+      ],
+      "sha256": "ec36d566762a51667047884c91636a8845c2cd1328b22c82d0e8c55a2978a9f5",
+      "size": 97691,
+      "source": {
+        "type": "qol",
+        "id": "pallet-delivery"
+      }
+    },
+    {
+      "id": "qol-shopos",
+      "name": "QOL ShopOS",
+      "version": "1.2.2",
+      "files": [
+        {
+          "path": "BepInEx/plugins/ShopOS/API.md",
+          "size": 7793,
+          "sha256": "90bdf8e41f13f45f9811feb39ae4af4cbf5812c58ab78ee33665c5be9a4ecde0"
+        },
+        {
+          "path": "BepInEx/plugins/ShopOS/LICENSES.txt",
+          "size": 255494,
+          "sha256": "c93bc2ed8c48f202f46a14a96229a02f7db24a4539aac75c68a40547ce905d03"
+        },
+        {
+          "path": "BepInEx/plugins/ShopOS/README.txt",
+          "size": 14063,
+          "sha256": "79e3097965946cf93929f2c1acdab0b319e644e879c51d7e656adf7e1a1dd982"
+        },
+        {
+          "path": "BepInEx/plugins/ShopOS/ShopOS.dll",
+          "size": 4911616,
+          "sha256": "67beffa8f7a4de64b4afbba83148a366d66a29e2dbf39b82145feebfac0836d6"
+        },
+        {
+          "path": "BepInEx/plugins/ShopOS/tools/qjs.exe",
+          "size": 2151363,
+          "sha256": "2aeabf0092c3262d6b2609824418f7dd7ed1f1df939f73b2b15645230cac0d77"
+        },
+        {
+          "path": "BepInEx/plugins/ShopOS/tools/yt-dlp.exe",
+          "size": 17840399,
+          "sha256": "66674953fe251b89f4d08c5f0e35e0728679bd67ab3d7d05c0562af101dd3e7a"
+        }
+      ],
+      "sha256": "ef57ab59b85e3ba507614ec01eb8b4b6623d5732759c01f54faa3975d69c2f5e",
+      "size": 22855695,
+      "source": {
+        "type": "qol",
+        "id": "shopos"
+      }
+    },
+    {
+      "id": "qol-cardgrade-overhaul",
+      "name": "CardGrade Overhaul",
+      "version": "1.2.5",
+      "files": [
+        {
+          "path": "BepInEx/plugins/CardGradeOverhaul/CardGradeOverhaul.dll",
+          "size": 5796864,
+          "sha256": "cff3c6b517b58f0d111fe12971b09f6f6dec2360681214ad33d689ec035c76f5"
+        },
+        {
+          "path": "BepInEx/plugins/CardGradeOverhaul/README.txt",
+          "size": 12692,
+          "sha256": "a0f77181983a7a5f87e0227a476a4f1f53928beaddd7a778fb7aa1dd2cb65ab6"
+        }
+      ],
+      "sha256": "03844124fe8ca1f42c8159f7be68bff260e5eb0f10b7302525ac84f1e640669d",
+      "size": 4803481,
+      "source": {
+        "type": "qol",
+        "id": "cardgrade-overhaul"
+      }
+    },
+    {
+      "id": "nexus-1748",
+      "name": "Chubs Real Prices",
+      "version": "0.3.88",
+      "fileName": "ChubsRealPrices 0.3.88",
+      "fileCategory": "MAIN",
+      "files": [
+        {
+          "path": "BepInEx/plugins/ChubsRealPrices/ChubsRealPrices.dll",
+          "size": 30779392,
+          "sha256": "a12170c7ffa98b11250a89be190b2b9106160d7f4381820516da711dec2b9e14"
+        },
+        {
+          "path": "BepInEx/plugins/ChubsRealPrices/README.txt",
+          "size": 1812,
+          "sha256": "a0d8da86f284c064d51dfa4fda9d2a1215c5092fe18c9d9dd790144da99074b8"
+        }
+      ],
+      "nexusMod": 1748,
+      "sha256": "7d077fab4aa59fa0b7b89e4f8306bf1ecd610c2646b2f48305db67f1c48df69e",
+      "size": 4499047,
+      "source": {
+        "type": "mega",
+        "url": "https://mega.nz/file/6r520IgL#xzbWavXOfdzwoRodGHCaGZ4b41zHeTPUMZGuFL21GoU"
+      }
+    },
+    {
       "id": "nexus-1639",
       "name": "MyCurio Pokefactory",
-      "version": "2.1.7",
+      "version": "2.1.8",
       "fileName": "Pokefactory phone app",
       "fileCategory": "MAIN",
       "group": "Pokefactory - Shop App for MyCurio Pokemon Sets",
@@ -5772,33 +5749,74 @@
         }
       ],
       "nexusMod": 1639,
-      "sha256": "c9617da1e961da27809cfb486bba4dc18a1bfa2276ed8d3799aea26d1fe7c8c0",
-      "size": 156404,
+      "sha256": "8d4f26c6a0dfc82e264c7a9a52f2e5066b1d5ab8ae3fbbce6f0ac25c69a0dc0b",
+      "size": 156431,
       "source": {
         "type": "mega",
-        "url": "https://mega.nz/file/S3Q12ThT#DG_0kXLZlxJj_Qd8NZfVCqvRsEHmUd0puG2Y5hnojOE"
+        "url": "https://mega.nz/file/Wq4DCaLT#RUI5F7_uVpggCoCkxYSrKv-h4IWzW2FxxMZcIphbqBc"
       }
     },
     {
-      "id": "nexus-1144",
-      "name": "EPL API",
-      "version": "6.5.0",
-      "fileName": "EnhancedPrefabLoader API",
+      "id": "nexus-1734",
+      "name": "MyCurio Products",
+      "version": "1.0.10",
+      "fileName": "MyCurio Products",
       "fileCategory": "MAIN",
-      "group": "EPL API",
+      "group": "MyCurio Products - Mixed Boxes and Fixed-List Packs",
       "files": [
         {
-          "path": "BepInEx/plugins/EnhancedPrefabLoader.API/EnhancedPrefabLoader.API.dll",
-          "size": 33792,
-          "sha256": "b073928845e5f9349750f2e9e7b6c815cdc5de7f754d1178636a69bbb02dfed9"
+          "path": "BepInEx/plugins/MyCurioProducts/MyCurioProducts.dll",
+          "size": 83968,
+          "sha256": "1110ac6bc6012d9c63579f287beea73208542c6617fc4b1eae7debb46d50fcab"
         }
       ],
-      "nexusMod": 1144,
-      "sha256": "97458909a6fb021b14801c84fa2688ecd74c452039f72980a4b8763ae7c35ab9",
-      "size": 14636,
+      "nexusMod": 1734,
+      "sha256": "fa46d8088001e6a8d3ba67060de43db6c504bb6924bfd454fee54a8421f34b9f",
+      "size": 30497,
       "source": {
         "type": "mega",
-        "url": "https://mega.nz/file/ayxHyLSY#5HJnZ7DqJ0kFOHcXXRA5xQ3kjGYcIagYOV6VkertD9M"
+        "url": "https://mega.nz/file/miYBQT5C#5NL8KHCUVu6P2lRqp-9nDf2llQlXCvDPCkldThAigGI"
+      }
+    },
+    {
+      "id": "qol-purchase-overhaul",
+      "name": "Purchase Overhaul",
+      "version": "1.3.5",
+      "files": [
+        {
+          "path": "BepInEx/plugins/PurchaseOverhaul/PurchaseOverhaul.dll",
+          "size": 479232,
+          "sha256": "0351b4e5607b69e6d86bd3b4e964741f07cf21dd9c4220eb17b69cedea6a0867"
+        }
+      ],
+      "sha256": "0e5e1e0c1125b51583adee86afb609d82b96f4f0623e516b7caff9f1161dd7b9",
+      "size": 357609,
+      "source": {
+        "type": "qol",
+        "id": "purchase-overhaul"
+      }
+    },
+    {
+      "id": "qol-coop",
+      "name": "QOL Co-op",
+      "version": "1.0.7",
+      "files": [
+        {
+          "path": "BepInEx/plugins/QOLCoop/QOLCoop.dll",
+          "size": 1188864,
+          "sha256": "8b3cbfb5b412548ef04925b236747096edabb51a7b6420bda6b357b4a6f2b17b"
+        },
+        {
+          "path": "BepInEx/plugins/QOLCoop/README.txt",
+          "size": 7405,
+          "sha256": "e56dc7b93809d05276aec5c5138c472bae877965f6498a37bf8e7f93c3fd61ab"
+        }
+      ],
+      "sha256": "edeb4b806baef8d452e92b1c646259a482ef4b4d9a33fc29c0d610be7c21bb7f",
+      "size": 964149,
+      "source": {
+        "type": "qol",
+        "id": "coop"
       }
     }
   ]
