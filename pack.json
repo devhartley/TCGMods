@@ -1,10 +1,10 @@
 {
   "format": 1,
   "name": "Our mod pack",
-  "version": "1.3",
+  "version": "1.4",
   "gameVersion": "1.03",
-  "notes": "Mod updates + grading card company",
-  "published": "2026-11-10T19:40:10.895Z",
+  "notes": "New mods + updates",
+  "published": "2026-11-14T00:54:13.910Z",
   "mods": [
     {
       "id": "bepinex",
@@ -1151,994 +1151,6 @@
       }
     },
     {
-      "id": "nexus-1735",
-      "name": "MyCurio Holo",
-      "version": "1.4.1",
-      "fileName": "MyCurio Holo",
-      "fileCategory": "MAIN",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/MyCurioHolo.dll",
-          "size": 25088,
-          "sha256": "f396a1f053b0984c5bb1aa31de8e5cbc943489a6eccb950d135fa611111ecfab"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo",
-          "size": 43324,
-          "sha256": "acacd143262cd27b28ae78b2f81df2a885e4e9f203537e67ac9cd8cabc160aed"
-        }
-      ],
-      "nexusMod": 1735,
-      "sha256": "68906e7ec9093c8a2cf2950fd8eb92e9c51363a564704d6a712dea3f95422e00",
-      "size": 44617,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/WuBiCICC#IwPVyH30gUXN12Zmu9szChHcjxm5FytZVtIgwCSxY0E"
-      }
-    },
-    {
-      "id": "nexus-1735-9205",
-      "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (XY maps)",
-      "version": "1.4.1",
-      "fileName": "XY maps",
-      "fileCategory": "OPTIONAL",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/holo_types_pokemon-xy.json",
-          "size": 62569,
-          "sha256": "68403355466d54c48e203d0e4dca5ccb547615eecbf078da2ee4624adf80180d"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_dc1",
-          "size": 773304,
-          "sha256": "d8485e406af7ca3088291a03a8da03adef5e670a4c9adbcec201effa80e3449b"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_g1",
-          "size": 2098364,
-          "sha256": "58d4f68a0e2cdf7d8d1e722d1be029ece6691a5b3d4b4326bfe6a28e85cd5a81"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_xy0",
-          "size": 9927,
-          "sha256": "175a9bdcb165c77d0cbcf6098bf2e0486997e596f7285f2e8f5b627407c213ac"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_xy1",
-          "size": 3006786,
-          "sha256": "21f7152b4acc64997521a76fdf77a1c06bec16e84466c9de932d35f2da2ebe9c"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_xy10",
-          "size": 2975411,
-          "sha256": "4ce4ef96db7179bcbc98c37b781ca09bab6aa7a0fd975bc973dee9aa93a90415"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_xy11",
-          "size": 2683604,
-          "sha256": "d9d80785640a96ff1bcf709b0fe1bac6af5c94de64d5a020d8efbc53e0c45aa8"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_xy12",
-          "size": 1328384,
-          "sha256": "8a3bc69061be28d3dd485d88ccb84923a99d7dd6bf081c120fdd67e4093831a0"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_xy2",
-          "size": 2678651,
-          "sha256": "a1058f1ca7f0c354d8d463add55abe9ad006d2737efbdcab8f5a99a73b7419c8"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_xy3",
-          "size": 2621170,
-          "sha256": "e9a3996cd3c5b17beda6f1ac1c742760d3cdddb18ad677ea17ba58922ddf41be"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_xy4",
-          "size": 2941532,
-          "sha256": "c3ea73aa128cead06ef3ece4b02f29c679d8ef8bfb266225583d99e5eae2e409"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_xy5",
-          "size": 4214132,
-          "sha256": "185a81976c66076e5b4a15f757a32c3516fe43fd253d230eeb3e28663d596e31"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_xy6",
-          "size": 2798241,
-          "sha256": "1fbd785c91dfc4af32eb4889b4a3e6edc7eb7f1cfc55339d641db7c25daa0271"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_xy7",
-          "size": 2820714,
-          "sha256": "02ae88624499b5c1dc408c6c267f334d2807372dd00e48510b2638f5ba8ab80d"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_xy8",
-          "size": 3719322,
-          "sha256": "fd8665a3502c791e6aea3232d7c05a29f81bed4a0cf88ba61d8dbf1322b4ddf4"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_xy9",
-          "size": 2926316,
-          "sha256": "89df8711f645e89ccd490308895523a72eeb183296c82cf2fcc183a496eb0fa6"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_xyp",
-          "size": 3277980,
-          "sha256": "3e5ad25c0eaef17980ad663ab526c4f41a0aed1c6be802d18a861f7452b56bca"
-        }
-      ],
-      "nexusMod": 1735,
-      "sha256": "3b16952cfd5c719eee40bfa7998fd2134bfea194c9f5012566c09262885128bd",
-      "size": 40570330,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/6n5GwAKA#OqDjebIwVbjq_u7T6Xuxq4vrLF-YIR2OGar6HJ_GSng"
-      }
-    },
-    {
-      "id": "nexus-1735-8903",
-      "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (Mega Evolution maps)",
-      "version": "1.4.1",
-      "fileName": "Mega Evolution maps",
-      "fileCategory": "OPTIONAL",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/holo_types_pokemon-me.json",
-          "size": 38841,
-          "sha256": "7314cbbd881ddadd525075573994a40a4764efc14d5e4219be56fc217828989f"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_me01",
-          "size": 6370931,
-          "sha256": "652782ba6490c04e4820467eee541652c58728fcc4876e07dc1601e58f6587af"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_me02",
-          "size": 4241912,
-          "sha256": "daf5976fc1331c7e6e0031cf2a55ba247f552ce920b74aaebefecea3939dc3be"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_me025",
-          "size": 10797739,
-          "sha256": "f089ae82ccfdd292b36137d2f33ed00a038ce5efd457b0c6215fd4558b40e05e"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_me03",
-          "size": 4330704,
-          "sha256": "f0dc9e8ff25345cd60166b4be073f9277ff01b3c42572da0ffd7141e36208f07"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_me04",
-          "size": 4486444,
-          "sha256": "c7c98beb3b9ce7e6d0e9dd8110e77ea0e698974632c60e7a1b917773d1e0793e"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_me05",
-          "size": 4194383,
-          "sha256": "77e27a27b2c337a486d91a7a60625e246e15b91f712d0d2fdafcd5d6ce962674"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_me30th",
-          "size": 5518746,
-          "sha256": "8f63224552c843ef01c7803eaba0eefd1b11c5618a312ab631d293563676017c"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_mep",
-          "size": 2310554,
-          "sha256": "d86c45a8a93effe6d557c74f9f5997d37c8b990fa6951e4a4a354cccf9d580a5"
-        }
-      ],
-      "nexusMod": 1735,
-      "sha256": "9102f2a688bb2bc1949763b52ad8acfaa4e18fb7c7857e4cfda9d12a4445f6e3",
-      "size": 41908644,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/Wyo2SSDZ#F_JLOHVi8ZHxmEHj1gm2LpPva0rnilfflOr7yRJUL88"
-      }
-    },
-    {
-      "id": "nexus-1735-8766",
-      "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (Base maps)",
-      "version": "1.4.1",
-      "fileName": "Base maps",
-      "fileCategory": "OPTIONAL",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/holo_types_pokemon-base.json",
-          "size": 3908,
-          "sha256": "4b8a4efe69434b8771934712f66a6ca7cfdd79f2f7ddb0dcff9993140b598f56"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_b2",
-          "size": 104039,
-          "sha256": "7c7750b58df44784dd19d4f16882cdafe0a74084f3527e9cf11d9661d753a6a4"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_bs",
-          "size": 83856,
-          "sha256": "eff2772cfc82058af0770f842e7a8a5a73628f505d0322965ae053fcb6ab73ee"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_fo",
-          "size": 85938,
-          "sha256": "8b7717339c754d7deb6ede9b1e3bb6c5363ae3ec634e6a61920d3544bd16fcbb"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_gym1",
-          "size": 98221,
-          "sha256": "89b28a74465d9f9382369789c23595e2869c61365487217f11131f6254681f40"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_gym2",
-          "size": 80689,
-          "sha256": "b0aa1d886626a7c7083f37e9aafdaeae6724e6248fe84424de3d5925da03791c"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ju",
-          "size": 81237,
-          "sha256": "094bf5747c12a6614492041451223de1d16eb7814fd34955d4f4d5fcbb530fb9"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_tr",
-          "size": 82712,
-          "sha256": "5155e3909c9f8eed28702fc6bde1c770bb0217d11d49be732bdf3aa4d60f1e6c"
-        }
-      ],
-      "nexusMod": 1735,
-      "sha256": "3c4f64a7576e381d87f0b6e6a278e7c858b4c3fa8ca34f1adcf3477399a3c74c",
-      "size": 602042,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/a7RHQayK#B6VMPi2lB-G4tMXeopdp3ZERkcu1Q60_A-GrCHI3nbc"
-      }
-    },
-    {
-      "id": "nexus-1735-8765",
-      "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (Neo maps)",
-      "version": "1.4.1",
-      "fileName": "Neo maps",
-      "fileCategory": "OPTIONAL",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/holo_types_pokemon-neo.json",
-          "size": 7112,
-          "sha256": "3b9058b49f8222b0bae5bb739a3e2e134def09b0f2ca2621b47b3c0158735d51"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_lc",
-          "size": 5511474,
-          "sha256": "7f5c1fe38964ca2ac01999958e561e89b9857b504b1b50e51fba4fbbeed6c4e4"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_n1",
-          "size": 94111,
-          "sha256": "382ba9348c02182fbda029b664288293755c768535cd7d0a1dfbe8147b003426"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_n2",
-          "size": 87439,
-          "sha256": "5c4fcc93cd5bcb6f24360b138c905457b80eb4df6d0ff245a921a2609191dbf6"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_n3",
-          "size": 74626,
-          "sha256": "9a7a74a1757d8d7bab4ef56c5a5e3cc634d5bb74a7382c7ef57f7ff829bc0a8d"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_n4",
-          "size": 115381,
-          "sha256": "2f78235ee402ca6f10521ba48f53234bae124db684168718ba7797e80ab1ad3c"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_si",
-          "size": 225968,
-          "sha256": "47f9a6a208b2df324a9ec6d48a144f4ef7ba0b23686016b72f58afd4d3a20886"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_wpn",
-          "size": 125319,
-          "sha256": "9bbcb5aacd8864b5bc034fe9af39abbe8ccb667c786f08d1985af5f00ed228ef"
-        }
-      ],
-      "nexusMod": 1735,
-      "sha256": "4c533e7b720dd71105574264d05f83e6e6aa741ad47eb9d4aa6e86ee05f63781",
-      "size": 6190034,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/6jQwGYoC#olEhVBpUxyhPqXC-iYLMTCXjtZNYlilIPoPdtZjRCno"
-      }
-    },
-    {
-      "id": "nexus-1735-8764",
-      "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (e-Card maps)",
-      "version": "1.4.1",
-      "fileName": "e-Card maps",
-      "fileCategory": "OPTIONAL",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/holo_types_pokemon-ecard.json",
-          "size": 21476,
-          "sha256": "c1ede9c03dd95b3857e930120dec8da1d6448e632b9501c10e2cc00b37153cec"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ecard01",
-          "size": 425368,
-          "sha256": "140ab6cb724e1b2591e73dea3257c9abd4adaf910cbe6e60430b55c0b9a9704a"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ecard02",
-          "size": 424272,
-          "sha256": "28b27b9b7c64ef84b1fafd0e9bf2f9e60fa061f6db2244af90f821ca0a5590c1"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ecard03",
-          "size": 401520,
-          "sha256": "9c6f6c62fdb6e141cfe37a2fb580192836739121cd1939a8dff7685d1f3b5aaa"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_wpe",
-          "size": 17501,
-          "sha256": "07a0cf928fef1f37ae05782ab6c9ac6582741423f55aa1b6e5916bec5ab5a8c5"
-        }
-      ],
-      "nexusMod": 1735,
-      "sha256": "bb0bbe5bd22ac4d3c8cfc8bd42f3ba25c9c87eaddff1eb736291dfca9d471c40",
-      "size": 1223157,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/ejQ3hRgZ#LU_KRBgRYcHD3YuOsxgyIay_2Q-aNk87eMLLPFfY10g"
-      }
-    },
-    {
-      "id": "nexus-1735-8763",
-      "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (EX maps)",
-      "version": "1.4.1",
-      "fileName": "EX maps",
-      "fileCategory": "OPTIONAL",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/holo_types_pokemon-ex.json",
-          "size": 68631,
-          "sha256": "ca751b321b5c0ec3dce87b8cebab898db3773fb5e6ef1d4680ead0b41100e2c3"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ex1",
-          "size": 290811,
-          "sha256": "9f9ffb5158069e8e11f2fa6312e2e0d900a65286a8732a5edd6258c0daf7ae89"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ex10",
-          "size": 1079344,
-          "sha256": "33c58f9d91b6c741859937af72ea0c4e60bc2a24e802afe6a28373c94b6397a9"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ex11",
-          "size": 185095,
-          "sha256": "70a6d471e6a18585ec6c9dbcde10be67b1c10b65ff583bc03048fe7d7152bd96"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ex12",
-          "size": 201994,
-          "sha256": "fc8dd46e4015901740005c52fb5e43f815a6f2da1f9dd3896a5daec78f9b3799"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ex13",
-          "size": 181889,
-          "sha256": "9011a0b8e15dedb74ce647b2fde263f2d34dd92a2059d3f656b07e96ea9ac00e"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ex14",
-          "size": 219573,
-          "sha256": "070c1ff062fce32316804be989fd6b296d0dd552675b462ee393a0c77cf3c918"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ex15",
-          "size": 184195,
-          "sha256": "f78193c1227886fbf077b996d4655f645d14225b0fd0beac63453a68db7e044c"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ex16",
-          "size": 236081,
-          "sha256": "79ac57b17927908d07d182e078d768510e2e36f2af7d2bbe65818e02b907472d"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ex2",
-          "size": 244554,
-          "sha256": "98684fd471a7421933e78920708918d2d6076d44b9dcc7cf58bf60706b138bf5"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ex3",
-          "size": 216319,
-          "sha256": "f348f832e23d6470bf6ff64052c15a596cfe32416d5040168b1501d2b5e2cf5b"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ex4",
-          "size": 242670,
-          "sha256": "d0919803172a6c07c9c19ce6358116353ba8f27af740070d263a853abac27338"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ex5",
-          "size": 788681,
-          "sha256": "f434c2e651d481e907947036f5920d2a9b2c1cdb7463bcf12dea1f2de65540d6"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ex6",
-          "size": 1026050,
-          "sha256": "8fbeeb6343f8750c30e8a83098932e6cad1ba8a462267bdb8a8e35e47839de5e"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ex7",
-          "size": 1027411,
-          "sha256": "d240577806a17ef218950c48cf6b309479e8545392efbfb491ece29cbbff0a9f"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ex8",
-          "size": 2011879,
-          "sha256": "f47d3929525e8a6e6ac30d26f6235bdb4376c7ee16151f785eb5ab98eec0f7a2"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ex9",
-          "size": 903711,
-          "sha256": "7e5c0818c1d70d67e94325e0ecec764496258488b1fe1898a175744b8ca2b0ff"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_np",
-          "size": 197461,
-          "sha256": "a5a9b2709ac98b377cd47282ee96bddda136aa425b30d4b362f4060ee844b5c5"
-        }
-      ],
-      "nexusMod": 1735,
-      "sha256": "a692e476268a2ae0da20d502e1131468de31d58fa3905003ec07614beefc9301",
-      "size": 9053783,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/72p0RKZR#JsDCZpozslAU-GeitGfLpakgJ5ugyHAxULtS6jDNi8w"
-      }
-    },
-    {
-      "id": "nexus-1735-8762",
-      "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (Diamond and Pearl maps)",
-      "version": "1.4.1",
-      "fileName": "Diamond and Pearl maps",
-      "fileCategory": "OPTIONAL",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/holo_types_pokemon-dp.json",
-          "size": 54031,
-          "sha256": "c8dbd92fabf2410f321c4c29f55e7030950bb55e3c74bb725265acdfc09f38a9"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_dp1",
-          "size": 353988,
-          "sha256": "99fb3fa3f6ccf6b8e866676a17ce5c7020e403230bcbbee8d7af9c740f6ce400"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_dp2",
-          "size": 344262,
-          "sha256": "fdc7efcb1828ab0177388d0575524b571ad2367862a85ef88afdb5a1ba496f1f"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_dp3",
-          "size": 371403,
-          "sha256": "6d06230e880723ce6281c23740cd24218def5e4b586432458864412c00e203df"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_dp4",
-          "size": 282876,
-          "sha256": "c3cb1b773032c04317aabee084157092255070e6a7fa88a6ad9a2df7bc61f6af"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_dp5",
-          "size": 281192,
-          "sha256": "ddc39a2fe62b176e59a5b110ec46a88ddaa1059393619141484822af7b8d6699"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_dp6",
-          "size": 384291,
-          "sha256": "29b856baf63f52135ee2afd94ddb58c201be292b9265639626f890bf90e88be2"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_dp7",
-          "size": 273402,
-          "sha256": "4d334dca97f3ffc4c4a9c2566ce7b7fdef4bada8ec87febc7057a47791b1cefd"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_dpp",
-          "size": 264228,
-          "sha256": "063761f21ca49e48dc4b6d82514993ddb8a89e447c28fad34e9afe625e795b56"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_pl1",
-          "size": 376497,
-          "sha256": "82aefc5bb4a7fea6e8a08248b32d2c6d6e840341a70181b3a6903e813ba4c7a5"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_pl2",
-          "size": 327475,
-          "sha256": "7e5843d5c4dc0fb8bc3bf46c3edb4dc4c2aa13178c767a0eb9923f6c5f4fe02e"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_pl3",
-          "size": 388847,
-          "sha256": "1f99e0f16ecf1fc84a08b725f89dea77a52b1b7a930b4a99641bbb0637e00591"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_pl4",
-          "size": 343204,
-          "sha256": "904c13220e20e12ed50d2b73f1c7522f5c0a3cde0f7ee8663520fb7e16d61ad1"
-        }
-      ],
-      "nexusMod": 1735,
-      "sha256": "37fa1ef77afc28eb82f2127944255f50621ab46bd94cb054a731d7a11692ed51",
-      "size": 3864101,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/LuZwUI7A#krhIrfjn7AENYAbJ-0sV-pq7WOqNbuiypL2LYYXjqN8"
-      }
-    },
-    {
-      "id": "nexus-1735-8761",
-      "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (HeartGold and SoulSilver maps)",
-      "version": "1.4.1",
-      "fileName": "HeartGold and SoulSilver maps",
-      "fileCategory": "OPTIONAL",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/holo_types_pokemon-hgss.json",
-          "size": 21555,
-          "sha256": "16b40e70ed28150440f44faa99160d59ed4711876b0db99bdeaba72399bf41c8"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_col1",
-          "size": 347155,
-          "sha256": "3c7a1831436179b2a314d6f63c7d2deab399fe6231455f4461623ecade31ee3e"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_hgss1",
-          "size": 296540,
-          "sha256": "19c10ae4f6bb853eff1469c9e8ea396300151ce48e6a875b687052b91154696c"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_hgss2",
-          "size": 265200,
-          "sha256": "7548e199816bff2027ce0170c7bb506b6e3ec5404a912bc888eb166675cccce5"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_hgss3",
-          "size": 265248,
-          "sha256": "f22ce9370959229af68f7e339e9aedfc5df8712ad7088812e68c41d63abd7b56"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_hgss4",
-          "size": 286815,
-          "sha256": "03e6fdb13793282ed4343cf8e278d9d3288c90712aabfca2c9bfc5df2d4afae7"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_hgssp",
-          "size": 234640,
-          "sha256": "4a778bc6f6d10722ae9bd7cbdd0f61e1ae77d41f6f8c92d7cee9958203b26743"
-        }
-      ],
-      "nexusMod": 1735,
-      "sha256": "2c10176d4c943e43ca42fd752783667b8de62534b20574037c6acf2c2462d06b",
-      "size": 1570377,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/K7ZixQjQ#YG5B6FdyCPzo3h-cqd1PXsJLzglBFjyNn9tOKVu2NPw"
-      }
-    },
-    {
-      "id": "nexus-1735-8760",
-      "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (Black and White maps)",
-      "version": "1.4.1",
-      "fileName": "Black and White maps",
-      "fileCategory": "OPTIONAL",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/holo_types_pokemon-bw.json",
-          "size": 49813,
-          "sha256": "62666d6dca70f01108971f6cd1c80ce234b05b41ce063bc0c91dac4c21e3f1e8"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_bw1",
-          "size": 333267,
-          "sha256": "8cb1d4bd48efa1a0e5cbde703703324a566a07a56c72002cb377a5cfa86733a4"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_bw10",
-          "size": 2177682,
-          "sha256": "81ea062df4607f8cbebbfc3111c3b629cb6262859619bc0bcbbcc5f2833f6252"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_bw11",
-          "size": 2392021,
-          "sha256": "8ffd19a16a82221e716f64aefe0062d054bb2a52d3ab571b72c923f55ee73c81"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_bw2",
-          "size": 2169727,
-          "sha256": "14dabf621c3e7d2aba9c2bf81382d89422f2a464caf20adc7c2aae000fa8c24f"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_bw3",
-          "size": 2452381,
-          "sha256": "17b3db3c4cfd01f13ec1be600fc125b6b58c45f5b999125a3bcee5556aae12fb"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_bw4",
-          "size": 2388783,
-          "sha256": "8345cf74420206fcaa6a432fa4dc933625ea0af9e9ec11ee719a18f81b447a08"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_bw5",
-          "size": 2559739,
-          "sha256": "914f5aaf9ff84411d3cecfe24c09ab034570a28292f19646fb10c28f6cd2c384"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_bw6",
-          "size": 2877051,
-          "sha256": "06db64482b7efe768ce3f78380c55d49ac4add23b50f7578cd100767a5fc53ba"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_bw7",
-          "size": 3600671,
-          "sha256": "13a3af22f94ec2513e62ab4c5e2f33b3cc2a33de73f0b8bcf52549b568d4a386"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_bw8",
-          "size": 2420554,
-          "sha256": "c49e3e3aeed20b13e5257e918fdc31e62c1b77cd3520b90c8dc1ef9983625a6b"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_bw9",
-          "size": 2361767,
-          "sha256": "412c57f33fe4102a63800425d3d962c4791bba85be9605dd01da0caa9914be3d"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_bwp",
-          "size": 2761737,
-          "sha256": "306bf64926b6e26e9887bef51c5c8a9a07eb684218fb6e9a29709b217c96568b"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_dv1",
-          "size": 15450,
-          "sha256": "fc92d3ff6369e03cb35ee29bf7bc0de980c709664c18a928cfe8d521184ad2fa"
-        }
-      ],
-      "nexusMod": 1735,
-      "sha256": "177715bcdea2be2f86e3a4ca0b3f80024c61ebaa32282bab501ef2aa7f2c3e73",
-      "size": 28260192,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/T6AWgAiJ#YdloK19fyEPEog-cxxaDXcCmeNoNqszZzSbSd_Esyqo"
-      }
-    },
-    {
-      "id": "nexus-1735-8758",
-      "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (Sun and Moon maps)",
-      "version": "1.4.1",
-      "fileName": "Sun and Moon maps",
-      "fileCategory": "OPTIONAL",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/holo_types_pokemon-sm.json",
-          "size": 94844,
-          "sha256": "98cef3416972b27594066e38beb30f04a4425ba1c3d270ef7bfb0832ee04fd3d"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_det1",
-          "size": 580584,
-          "sha256": "46b50072a5280f356f5e8b8f0f4205cbc755958c15c3ffc4e761facfcdfcef87"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_sm1",
-          "size": 4900723,
-          "sha256": "028160b8a219176d8093a22d3ab68681f4ae17070543d71dc316d8a13009751e"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_sm10",
-          "size": 7100202,
-          "sha256": "53296c019c8a058bebd5842eea7d6b09a28a5e190f503122f4eec4cede8fe05b"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_sm11",
-          "size": 7594321,
-          "sha256": "2f0cf721ed639e4be9016dc3fb7519a5e09e61cd9c6db88faed98a9463fef95b"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_sm115",
-          "size": 5317645,
-          "sha256": "13600ed5f359cf4211cdff6f80af21a33e3c6ec394f308d9fe0d8d514dadcd44"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_sm12",
-          "size": 8826060,
-          "sha256": "e0ddbf1d84cd220168ce1394f885ce789cee8b8696c22ee41af52184ee954656"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_sm2",
-          "size": 5465234,
-          "sha256": "337ee97d9bd695c020fb0e43423212c1aa0ce71f05abfaf6e75e100d910c06e6"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_sm3",
-          "size": 5660033,
-          "sha256": "8e2420898b1386ef3337f1d00c05c3482a5a2945d8a404a56834c0b4682f1e62"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_sm35",
-          "size": 2192966,
-          "sha256": "02a686af707542e85b6bdb64753755747483645bbb57ed0e4ecc07be44312396"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_sm4",
-          "size": 3882819,
-          "sha256": "715f3214e4a32363162e8ccf0e8f70a850346c4fc70fab86879e2de1e582e0c0"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_sm5",
-          "size": 5323242,
-          "sha256": "9cc92d64bf1c1e3a56b3b5291f2e44e2c43fb0132538c4105858b4a5ed22b67e"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_sm6",
-          "size": 4125239,
-          "sha256": "2871fc0ee825ff39a40e27a15a2debf4c622f5736da80be8dcc1bed8f585cf94"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_sm7",
-          "size": 5550146,
-          "sha256": "fdbe4a147d9621c9e1b5e549b11808b4979e187279083865da6688c1622691c4"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_sm75",
-          "size": 2582158,
-          "sha256": "5715791132ebd2c40f2530909860ab3d4ff8f6fd10adb60db6e81d94c25c3c18"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_sm8",
-          "size": 7252013,
-          "sha256": "d5336419a01a3087963bcb1661e5d17963eab1bf8995b15403492aea25ec11f1"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_sm9",
-          "size": 5991447,
-          "sha256": "fe261df184f430d34b543f2195e2b8d3622bf7c690c4dee6f6e6b689e0f1ab0b"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_smp",
-          "size": 9691525,
-          "sha256": "5121224238090f6011ce0a62e1cd96c05cb81f429422ad2a3ee5399df3bd77ad"
-        }
-      ],
-      "nexusMod": 1735,
-      "sha256": "df86211844b163c8b72ce2744292eb0b4ae727afb3a5665c362c3551a5874701",
-      "size": 91404128,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/b3RHTaSB#Fk54NZ_k2QyfNPnBLtgIyMs-9DO3Rlc3IYI9sQJc0xU"
-      }
-    },
-    {
-      "id": "nexus-1735-8757",
-      "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (Sword and Shield maps)",
-      "version": "1.4.1",
-      "fileName": "Sword and Shield maps",
-      "fileCategory": "OPTIONAL",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/holo_types_pokemon-swsh.json",
-          "size": 112885,
-          "sha256": "7bd87b45efef436717b243bdc33a9cee439ce00648dc7be90ea361f8f83a1026"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_cel25",
-          "size": 567249,
-          "sha256": "009ba14b7c4a28eafe730308abb1e0901a1761f6d07ac4de7e4ec3529bcf6c82"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_swsh1",
-          "size": 10213806,
-          "sha256": "d0b3c1be0d6422035774129278a6d19fdfc3980b4cb25c5810d9cd0efa4a32fc"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_swsh10",
-          "size": 13631359,
-          "sha256": "7a4e30b4982214e396f5a6cc0eade0685d726e2e56905da5820ecba3296ce3a3"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_swsh105",
-          "size": 4757075,
-          "sha256": "cdf7be65da132ebef1b68ca8c261970add59f311517068234b66ddabf9591f6b"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_swsh11",
-          "size": 13082358,
-          "sha256": "59cf8e2633097388ccdc9ed8c5851aafe706ed0c3357c5320f03d307de1256d9"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_swsh12",
-          "size": 12855529,
-          "sha256": "f7aad245a945d2e3a2cb9398a7cb56c89c132e39845844169209a28f1236a98a"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_swsh125",
-          "size": 12380272,
-          "sha256": "5f15c306c3718b9cbd9f26e536bc449d91aa9c5ca8dd44a93f5e0819e2a5c1ac"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_swsh2",
-          "size": 10416460,
-          "sha256": "b59d363587e0280e2744ef03d601673c10cafc227f0b73e16e48df926179e0af"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_swsh3",
-          "size": 9664048,
-          "sha256": "aee8dfe68d51ac37d1d4424afed45cf1e7a86d6620d06f3d53385877ddbb9285"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_swsh35",
-          "size": 4002402,
-          "sha256": "81e4860dc437e07cb5d16322e69bc5a7c67b3b010b869935edc4e3aac805afed"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_swsh4",
-          "size": 10344225,
-          "sha256": "0034f7884348c079dc63a9657ca1ae83411ee663ddc32b07326065f4e8b05b7f"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_swsh45",
-          "size": 9679531,
-          "sha256": "a388659eafb8b012932ce11af9dc9bd2fa8ce97f44b621fbddfc86683c51a95b"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_swsh5",
-          "size": 9563198,
-          "sha256": "bfca15eefff40337827bc0d9427e60131db27ed6872bccded085bf4e4bfd2144"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_swsh6",
-          "size": 13195400,
-          "sha256": "a3a96af14267cd9ad1a80a34d15efccf5c45b5fc8d02501f4529be0786dadfb8"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_swsh7",
-          "size": 13534461,
-          "sha256": "a04aa95cba9e84da6deca79a52850cf3197d1a28807bb60fe9209be8d6e67581"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_swsh8",
-          "size": 13510291,
-          "sha256": "8d7591e2089e04ef3cf0ba6d5c02574016c083f07fd23cd5ade930c97e4db7c2"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_swsh9",
-          "size": 11045992,
-          "sha256": "8ed7b62a0eed3cebd80ffa2a0cc2dfb7f2923d3a974aa9ffebc3792aabb83a39"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_swshp",
-          "size": 12406379,
-          "sha256": "393779022ebb431346d6e3b4eb07b359d3f3198c4cd45fbddd48e01f1e90ed50"
-        }
-      ],
-      "nexusMod": 1735,
-      "sha256": "21bc26db415f1f72d5feb297a53952f0572fbf6707af95f7b38814e3943f5d0f",
-      "size": 183758933,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/GjYHSJbB#UashWzw0FvXviv4a4T2rY1UAwmDUMSYCs-vMPd9aJk8"
-      }
-    },
-    {
-      "id": "nexus-1735-8755",
-      "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (Scarlet and Violet maps)",
-      "version": "1.4.1",
-      "fileName": "Scarlet and Violet maps",
-      "fileCategory": "OPTIONAL",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/holo_types_pokemon-sv.json",
-          "size": 130916,
-          "sha256": "293ad43f856e118377db8f51808c4733dda10fe4b4f5c13de64642050ccbddbd"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_blk",
-          "size": 14829896,
-          "sha256": "0bcf9a290375bf3d68e626b9de48f9ef9ec912c4e51b05332cbd0d3dd1bfb2a7"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_dri",
-          "size": 11208995,
-          "sha256": "eedaf3680bc20ac0e63316129e30ac00e6f0d3259884c70fd33681df245b40a8"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_jtg",
-          "size": 8030348,
-          "sha256": "9cc2c632f2b6bf659ae71398c7d9102dbb11347e8706bebe469560746d2f8d06"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_mew",
-          "size": 9312384,
-          "sha256": "febfb7895e7760349cb05a0e702355167023dfe381d1197d1dac271ebfd07b9b"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_obf",
-          "size": 9770190,
-          "sha256": "a01612b11365761c5e13dd53ce82ffe98439996da25ef171dd1bf00618d4e1fa"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_paf",
-          "size": 13054297,
-          "sha256": "b34803d8195bfcb3cea41234aa3cb880a648c91ef4a9a3d7a4bd637ed2713a1b"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_pal",
-          "size": 13708753,
-          "sha256": "e0728cce188622178dbe98a73cb531274f7cb4b9d767780025ed6c082614c03c"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_par",
-          "size": 13485653,
-          "sha256": "c6edbf524733ea5d97675c79b38180f25e179ff7f0c4f23e94f9118740027b7b"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_pre",
-          "size": 25480816,
-          "sha256": "939986f253e98578ebb1b1a133bf56a58dec8edae563f5206b000f70d8d538e4"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_scr",
-          "size": 7960891,
-          "sha256": "dcd0915a49dcffd91a4825410d1acbfe979f9f3f7c8a8e28b2b2e02b2186529a"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_sfa",
-          "size": 5153027,
-          "sha256": "b7a1c24f92cd128e060dc836b568855a24191116ebfb810b1991b7670073b4a0"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_ssp",
-          "size": 12103106,
-          "sha256": "93bad2d7c86fd616eaf4e891f4011beb1f5e54fb41b232ceb662394870467cd5"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_svi",
-          "size": 11636890,
-          "sha256": "51257592ee339995db24c140c407ffe81e23f3b0697a6b6e9e19a0b3b15ff157"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_svp",
-          "size": 1306770,
-          "sha256": "2e9d47467b66f9b2ec87efd26f29e070d265c479ff84073955c01c808991f854"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_tef",
-          "size": 10479955,
-          "sha256": "8c30835f63f16d682c6ea72cd935d11f157f12aeb6a62e97eafe0beaf6c2d05a"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_twm",
-          "size": 11066789,
-          "sha256": "80e309d74265b10506120a65c174a74697fa2ecb59fb2b537af863a8b78b0375"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_wht",
-          "size": 15063213,
-          "sha256": "7d7734a2dcc71f522bb497199e872fb137ce5ab08cd71d30953a9b6a404a11e6"
-        }
-      ],
-      "nexusMod": 1735,
-      "sha256": "acfbe8db6e5acf0a479288c24c0912350a11bf5e78d5da280fa0e37430209359",
-      "size": 192856133,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/2zBF0JIJ#zg5LdvxL7sDX2Md_PLkVT4IxuLEOgdxaB8aC8DN7_qw"
-      }
-    },
-    {
       "id": "nexus-1892-8887",
       "name": "B2 - Base Set 2",
       "version": "1.1.0",
@@ -2514,33 +1526,6 @@
       "source": {
         "type": "mega",
         "url": "https://mega.nz/file/a34AiS6B#sGieS_-CeVrpoUYl32pRT5q_guJZ1TxCWBJZrxZKuhU"
-      }
-    },
-    {
-      "id": "nexus-1799-8710",
-      "name": "CEL25 - Celebrations",
-      "version": "1.0.2",
-      "fileName": "CEL25 - Celebrations",
-      "fileCategory": "MAIN",
-      "group": "Pokemon TCG - Sword and Shield Era",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh075",
-          "size": 34248221,
-          "sha256": "1f6b9368f1dc108baff73a2aae61ad53f6b19792554453e6e463f728d3befe2c"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh075.json",
-          "size": 31365,
-          "sha256": "db53f3778b88253e65fa92d792f360225b8c3e0797691b3d5a0ae7b5d0a61481"
-        }
-      ],
-      "nexusMod": 1799,
-      "sha256": "3235d9abca4c50e4b1912db30dee902cce1a8f2ab4c30b48c1edb15a5790e88d",
-      "size": 31359313,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/j6QVRYqB#ebGTOAYNMZXWsNxcWlkO_OSYx-f6PCjaPq10IJEDt6s"
       }
     },
     {
@@ -3570,168 +2555,6 @@
       }
     },
     {
-      "id": "nexus-1637-8676",
-      "name": "ME01 - Mega Evolution",
-      "version": "2.0.7",
-      "fileName": "ME01 - Mega Evolution",
-      "fileCategory": "MAIN",
-      "group": "Pokemon TCG - Mega Evolution Era",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me01",
-          "size": 80433300,
-          "sha256": "b033dcc7daec70c118187c93d75b4f3d77aa30d85216e904fa978695e32b6683"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me01.json",
-          "size": 108161,
-          "sha256": "ef2177fa8ea7482c4c65ca4da850a575dd5be833cf4441ec06870e5b3f9bf33b"
-        }
-      ],
-      "nexusMod": 1637,
-      "sha256": "21517136789d60b6a7b6af65cefd199fbf54aa63fc0a9c9df6102de5362de28e",
-      "size": 73466903,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/OiRWgLaJ#-0my4YfMdEQOrVGURRCuNZjBaKipGuaUwBoCjZVpku4"
-      }
-    },
-    {
-      "id": "nexus-1637-8677",
-      "name": "ME02 - Phantasmal Flames",
-      "version": "2.0.7",
-      "fileName": "ME02 - Phantasmal Flames",
-      "fileCategory": "MAIN",
-      "group": "Pokemon TCG - Mega Evolution Era",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me02",
-          "size": 56961053,
-          "sha256": "d6e2adf976338e513847300cb75bfcf524b9451f604ed49766ba98964b075cd3"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me02.json",
-          "size": 77758,
-          "sha256": "d607ddc9db6903e561b3efe5de8ba08291fb9bd376e6d34195a92a7b882483cb"
-        }
-      ],
-      "nexusMod": 1637,
-      "sha256": "942dd9fe263946878552d1e6ea4b1d1a368093e6778178cd74450924644f8f35",
-      "size": 52015800,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/K3QniKiT#osLiACug6cGKYtrNJ36o18HlCjOVavqvYg84mSIHvtI"
-      }
-    },
-    {
-      "id": "nexus-1637-8679",
-      "name": "ME03 - Perfect Order",
-      "version": "2.0.7",
-      "fileName": "ME03 - Perfect Order",
-      "fileCategory": "MAIN",
-      "group": "Pokemon TCG - Mega Evolution Era",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me03",
-          "size": 53152841,
-          "sha256": "35075e193e89db8bc1dc65d17aa664f5808d41ab2958dddfd594819920061cd0"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me03.json",
-          "size": 73936,
-          "sha256": "d256277c9797a9c959a1c1e030675a6e64be31bc5c42717217ce3408403d7e2a"
-        }
-      ],
-      "nexusMod": 1637,
-      "sha256": "1af3377800a31047637780fe486b476d14172e0f2c2d83c09c4392f8e6af75f2",
-      "size": 48412150,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/qnpzASTA#uf3Ctn6O1ZdVF9UFMwTMrNxiOhSkDZjCb5KICTLX7C0"
-      }
-    },
-    {
-      "id": "nexus-1637-8680",
-      "name": "ME04 - Chaos Rising",
-      "version": "2.0.7",
-      "fileName": "ME04 - Chaos Rising",
-      "fileCategory": "MAIN",
-      "group": "Pokemon TCG - Mega Evolution Era",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me04",
-          "size": 53330276,
-          "sha256": "55e4d413ab94f4b36c6f675f7515864612fc085f7e41fd7b7c97f4cfe74cbad2"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me04.json",
-          "size": 72090,
-          "sha256": "12fbc7bdfb9c76430677430247fb53dc041df8bf815021cac5e262d919f2c1dc"
-        }
-      ],
-      "nexusMod": 1637,
-      "sha256": "3ceb1e0a75f1108e95bc5288057ce7a46591986abde1ec1ded2f29dda16bdabb",
-      "size": 48711464,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/fzgWjDBS#jLlq1jpIGbPU00vcsoVXLvpRM7WcIu4R1CdcvAKOL5g"
-      }
-    },
-    {
-      "id": "nexus-1637-8678",
-      "name": "ME05 - Ascended Heroes",
-      "version": "2.0.7",
-      "fileName": "ME05 - Ascended Heroes",
-      "fileCategory": "MAIN",
-      "group": "Pokemon TCG - Mega Evolution Era",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me05",
-          "size": 51614898,
-          "sha256": "29b37ad899caa2a7eb517415ee50e7a1f0a1678fe36f094fe25d4a67eecac081"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me05.json",
-          "size": 71149,
-          "sha256": "ca617a71cfa47ad5ddbd6999844040a4ec3b79e17ce0fa4e89c955ffbfbcb9b0"
-        }
-      ],
-      "nexusMod": 1637,
-      "sha256": "66223244901887f8b9bfc1a3e984571ef8a3688729bb0f7f591370f64badaaa8",
-      "size": 47002271,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/O6BzCbTB#om9FIwFByVjkSDhiLsi8Cr9n7u7PLGROq1003tI_EuE"
-      }
-    },
-    {
-      "id": "nexus-1637-8683",
-      "name": "MEP - Black Star Promos and Collections",
-      "version": "2.0.7",
-      "fileName": "MEP - Black Star Promos and Collections",
-      "fileCategory": "OPTIONAL",
-      "group": "Pokemon TCG - Mega Evolution Era",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-mep",
-          "size": 21576748,
-          "sha256": "b8ec75bae903482cf9aa4953524cfd5341a85051f09daf9f244c5558ad35b58f"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-mep.json",
-          "size": 81947,
-          "sha256": "a8e23ca5d9fe84626189f0677729b4305ac91a9174a45650237a763da36dc40b"
-        }
-      ],
-      "nexusMod": 1637,
-      "sha256": "168035c1ed1d2a1173a259c3a0133516b94a1efabff676029242f4a4606a3aa5",
-      "size": 19704026,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/zmp2XKzQ#23pKFPMczK7Oq13B7kmUi4udG5hAPSkJgyqF7cRD_r4"
-      }
-    },
-    {
       "id": "nexus-1897-8855",
       "name": "PL01 - Platinum",
       "version": "1.1.0",
@@ -4299,33 +3122,6 @@
       }
     },
     {
-      "id": "nexus-1799-8701",
-      "name": "SWSH01 - Sword and Shield",
-      "version": "1.0.2",
-      "fileName": "SWSH01 - Sword and Shield",
-      "fileCategory": "MAIN",
-      "group": "Pokemon TCG - Sword and Shield Era",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh01",
-          "size": 96962635,
-          "sha256": "4f0cb5350c4442aeab55f3e16e1625c2a53dda35c075f8281d5911726270e0bf"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh01.json",
-          "size": 138107,
-          "sha256": "bc33e549d12182002e6ccee08edba104e5a6b4da5a33856b7c194f526f37b08b"
-        }
-      ],
-      "nexusMod": 1799,
-      "sha256": "a6fe5e27b9f8e0bccb8e01084099353ed86715935d0961ce6da41f3e28e2c426",
-      "size": 88512052,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/H3R3DCwB#Ryo8VWaXX4mr0dHbWijDaVN8epOx2BaHkJcLpv3CGmo"
-      }
-    },
-    {
       "id": "nexus-1892-8888",
       "name": "TR - Team Rocket",
       "version": "1.1.0",
@@ -4782,60 +3578,6 @@
       "source": {
         "type": "mega",
         "url": "https://mega.nz/file/3rhkjITT#AQ00E1eEktgzX9SBWYn_V7srYhLWIipcQgVYgMXK_yk"
-      }
-    },
-    {
-      "id": "nexus-1637-8678-2",
-      "name": "ME05 - Ascended Heroes",
-      "version": "2.0.7",
-      "fileName": "ME05 - Ascended Heroes",
-      "fileCategory": "MAIN",
-      "group": "Pokemon TCG - Mega Evolution Era",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me025",
-          "size": 122788931,
-          "sha256": "ba5d1e537191feb98a061fdee3216a6659281946387d9b9ceec09823572da386"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me025.json",
-          "size": 161966,
-          "sha256": "1813ab373b14bafbaa9c2b94198f1142269e88718ca06f0ef9aa5e5fba2214ed"
-        }
-      ],
-      "nexusMod": 1637,
-      "sha256": "5afccc119cc4f21677cc93dd638e3f34859f303e406bcbebc5899b15f8d72b7c",
-      "size": 112139443,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/Dy4izCZK#vK229lOL79-eF2Rwoyo_RgUXGy0qWNtT59K3_Qp2VP8"
-      }
-    },
-    {
-      "id": "nexus-1637-8682",
-      "name": "ME07 - 30th Celebration",
-      "version": "2.0.7",
-      "fileName": "ME07 - 30th Celebration",
-      "fileCategory": "MAIN",
-      "group": "Pokemon TCG - Mega Evolution Era",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me30th",
-          "size": 81665684,
-          "sha256": "f47a34f66677e50ac7226395b414bbb8a706ddab598492af2c40efb7c2f7fec6"
-        },
-        {
-          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me30th.json",
-          "size": 72259,
-          "sha256": "2550196cdf3a5233c51fa4d27463732a6dc7fbd3e7488f6f89236eadc2b7dfb6"
-        }
-      ],
-      "nexusMod": 1637,
-      "sha256": "3db8d3370358867f2b118c5c123355924ba78a20d29d47cedf2c387303eac506",
-      "size": 74836920,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/7iJmTJSZ#Jkimuutynageq6-FTbYEx-WxBjxlUv2oZhxeNYEuuyc"
       }
     },
     {
@@ -5757,28 +4499,6 @@
       }
     },
     {
-      "id": "nexus-1734",
-      "name": "MyCurio Products",
-      "version": "1.0.10",
-      "fileName": "MyCurio Products",
-      "fileCategory": "MAIN",
-      "group": "MyCurio Products - Mixed Boxes and Fixed-List Packs",
-      "files": [
-        {
-          "path": "BepInEx/plugins/MyCurioProducts/MyCurioProducts.dll",
-          "size": 83968,
-          "sha256": "1110ac6bc6012d9c63579f287beea73208542c6617fc4b1eae7debb46d50fcab"
-        }
-      ],
-      "nexusMod": 1734,
-      "sha256": "fa46d8088001e6a8d3ba67060de43db6c504bb6924bfd454fee54a8421f34b9f",
-      "size": 30497,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/miYBQT5C#5NL8KHCUVu6P2lRqp-9nDf2llQlXCvDPCkldThAigGI"
-      }
-    },
-    {
       "id": "qol-purchase-overhaul",
       "name": "Purchase Overhaul",
       "version": "1.3.5",
@@ -5817,6 +4537,424 @@
       "source": {
         "type": "qol",
         "id": "coop"
+      }
+    },
+    {
+      "id": "qol-upgrades",
+      "name": "Upgrades",
+      "version": "1.0.5",
+      "files": [
+        {
+          "path": "BepInEx/plugins/Upgrades/Upgrades.dll",
+          "size": 3396608,
+          "sha256": "4b72e9233bd0d74ef4c5d56064619c63cdfc5fafa32b37bbac222164aa90097a"
+        }
+      ],
+      "sha256": "d63ab040baab482bd8c9f50919c22b342eb24a5c9956f40fa466bc4b2752ec85",
+      "size": 3214617,
+      "source": {
+        "type": "qol",
+        "id": "upgrades"
+      }
+    },
+    {
+      "id": "nexus-1734",
+      "name": "MyCurio Products",
+      "version": "1.0.10",
+      "fileName": "MyCurio Products",
+      "fileCategory": "MAIN",
+      "group": "MyCurio Products - Mixed Boxes and Fixed-List Packs",
+      "files": [
+        {
+          "path": "BepInEx/plugins/MyCurioProducts/MyCurioProducts.dll",
+          "size": 83968,
+          "sha256": "1110ac6bc6012d9c63579f287beea73208542c6617fc4b1eae7debb46d50fcab"
+        }
+      ],
+      "nexusMod": 1734,
+      "sha256": "fa46d8088001e6a8d3ba67060de43db6c504bb6924bfd454fee54a8421f34b9f",
+      "size": 30497,
+      "source": {
+        "type": "mega",
+        "url": "https://mega.nz/file/miYBQT5C#5NL8KHCUVu6P2lRqp-9nDf2llQlXCvDPCkldThAigGI"
+      }
+    },
+    {
+      "id": "nexus-1637-10495",
+      "name": "Pokemon TCG - Mega Evolution Era (Mega Evolution Era - All-in-One)",
+      "version": "2.2.0",
+      "fileName": "Mega Evolution Era - All-in-One",
+      "fileCategory": "OPTIONAL",
+      "group": "Pokemon TCG - Mega Evolution Era",
+      "files": [
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me01",
+          "size": 157846477,
+          "sha256": "0593801a545f5c5fc922b7768b1065340fbc9efc4bc752eeb3417e4542dca9a9"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me01.json",
+          "size": 108158,
+          "sha256": "e18b2a0c52026c6a679a9285e573c3c6db16f7057d30f13fc487f622d7b04f08"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me02",
+          "size": 111275228,
+          "sha256": "2a13c81cd60cde223f6831949d0984d36b51ef64311040a125fa9dbf414a6460"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me02.json",
+          "size": 77758,
+          "sha256": "0b4e97a7b6338ab90f74a81fcb80672f37e51d43473e1a763b67e6f203eb2388"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me025",
+          "size": 240249809,
+          "sha256": "030e2e44cad20eb16e6ea178c004131ddbcd7348d23a8641992cbd81f7d3d3be"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me025.json",
+          "size": 161966,
+          "sha256": "bdbb96c1ad92be3ca47e791fb860ea3e8971f287bba58ceedde6dc1153ef88f9"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me03",
+          "size": 105162594,
+          "sha256": "c9577da4485d64189b447431cf6d766cace79c479b80e284b855b41fc2592bdb"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me03.json",
+          "size": 73936,
+          "sha256": "65ad55ac2a1d918c191ba46588faa02b271afc2831ba675b6290288baa5fa6ed"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me04",
+          "size": 105228517,
+          "sha256": "b061a52fc6c25416657e9a8b51533a6169952a16e89824963b2a6a24e8faf1d9"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me04.json",
+          "size": 72091,
+          "sha256": "675454ea30ce1ae296ef3edd5fca72582fefc5c76bc35f162a35a53d24d87489"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me05",
+          "size": 102233866,
+          "sha256": "0328d02877a8afb8ff17d348da8ff2c0762491e934140a4bb6ee4db8482e4a48"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me05.json",
+          "size": 71149,
+          "sha256": "cae9fe98499ef03b10ba750183415524e43014ff36f53081aa684cd87ad179d7"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me06",
+          "size": 62719016,
+          "sha256": "e209a1e158a54b48ded9d4772c0d1cc66f86e545f3ba2095ceabfb7ba61edbf0"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me06.json",
+          "size": 83577,
+          "sha256": "08878896126870d6f8bfce988688e9809b463d6f866c1d8cb5e8730c69807069"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me30th",
+          "size": 147603847,
+          "sha256": "dc5578a3aa2ee3bdeac7bf2c467b4e073d33a0699be638ae80d24813c010e276"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-me30th.json",
+          "size": 72259,
+          "sha256": "23747e702886f21049b432c29098b80520027823448d2b0a33204fa83885ce34"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-mep",
+          "size": 30448385,
+          "sha256": "6696bf583546118cfe2f90c1392cfbff78b649fc4304b10e181fe23b1ca89c9c"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-mep.json",
+          "size": 81968,
+          "sha256": "e630224682f682abfff584c1f5e9e710faff14af3c2fd9e910bb83edc0ef7069"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioProductsData/mycurio-pokemon-me.products.json",
+          "size": 5026,
+          "sha256": "e0e1ca0e69444b694aa533b4305ddab4fdb2a10cd3a7161661ff758552b6f67a"
+        }
+      ],
+      "nexusMod": 1637,
+      "sha256": "d5012cd40877116fa59450d9ba81cb7c7001b28a790e0ff0e2d5131879dda239",
+      "size": 1006264305,
+      "source": {
+        "type": "mega",
+        "url": "https://mega.nz/file/7yZyVZIK#Uiu4C-nwHHOEBQw6D9LLzBlN2ROaS6IKdHvWr5kMBbI"
+      }
+    },
+    {
+      "id": "nexus-1735-9205",
+      "name": "MyCurio Holo - Real Card Foil for MyCurio Pokemon Sets (XY maps)",
+      "version": "1.5.2",
+      "files": [
+        {
+          "path": "BepInEx/plugins/MyCurioHolo/holo_types_pokemon-me.json",
+          "size": 43387,
+          "sha256": "b3cfc35b7fdd9f79ae61cd7845e7838dd953e53800a6335f54268b25aa3aabb4"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_me01",
+          "size": 6371884,
+          "sha256": "eacbaf37062e4d53df9047d185349460c2a998785ffd55931a3a3679b245fb0c"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_me02",
+          "size": 4238982,
+          "sha256": "89219a6f2a885e26f92902c2a3cecfd98b517be82b03f8a32a1f07552da3059a"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_me025",
+          "size": 10798143,
+          "sha256": "951ca7d29aeafc899bcd3651d150d2ce924618fdd6cfbb455af1444a40ad9fc7"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_me03",
+          "size": 4331350,
+          "sha256": "4a610b32ce92691e05e65738a7955b8cc1699f919967fa125b8d222c39280b15"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_me04",
+          "size": 4485880,
+          "sha256": "dc4d57c6f5b5ee8967de228ed5ccad8d364b95e0c5e1c68ddcc280cfec3b7115"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_me05",
+          "size": 4193923,
+          "sha256": "5351930f9bbd1d66836172956b8ba672a554075ebfbfb29487a76b6ac2b67e08"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_me06",
+          "size": 4289350,
+          "sha256": "acddf49418bd5572617153b560b384b4fc6e6ba4a56b19db5e9df9fe9f822f7b"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_me30th",
+          "size": 5517906,
+          "sha256": "3260591bb21bfda307d24287836cd2e0566611f8b9b36bc2636e84ecc03e4296"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioHolo/mycurio_holo_maps_mep",
+          "size": 2363462,
+          "sha256": "f35b502e0f4346ca308b2875fdd8f94ed7dfac286b3a258d1d2ae562201922f3"
+        }
+      ],
+      "nexusMod": 1735,
+      "sha256": "ad4cb17cdfe77a51dce524ca907234245d227d8eadfafc5a4d12017a3786756d",
+      "size": 46211554,
+      "source": {
+        "type": "mega",
+        "url": "https://mega.nz/file/C6hG0Y6a#y54Jv_ockUWtxURbtmk2fqNyqSZs_HxS847nnQKQKKQ"
+      }
+    },
+    {
+      "id": "nexus-1799-10451",
+      "name": "Pokemon TCG - Sword and Shield Era (Sword and Shield Era - All-in-One HD)",
+      "version": "1.1.0",
+      "fileName": "Sword and Shield Era - All-in-One HD",
+      "fileCategory": "OPTIONAL",
+      "group": "Pokemon TCG - Sword and Shield Era",
+      "files": [
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh01",
+          "size": 784499672,
+          "sha256": "ae9d482482049487cebb38fd25571f860f7a53c1d2076cc7cbe5fae63847c6cd"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh01.json",
+          "size": 138107,
+          "sha256": "bc33e549d12182002e6ccee08edba104e5a6b4da5a33856b7c194f526f37b08b"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh02",
+          "size": 719055088,
+          "sha256": "b93c4f56a31d29cb8995a8cf6da98749eac216526fd77bc413668bdf24ab1830"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh02.json",
+          "size": 128197,
+          "sha256": "5ed17a35287005f5e3845c606e593ddfb680580a10d1c1165af8b5f7fad16fd4"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh03",
+          "size": 698126217,
+          "sha256": "d2105631d5e9b4de6793ae0e2fc73d2383b042f9e1862345b084293855f47cc7"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh03.json",
+          "size": 125981,
+          "sha256": "65332ac4240eb0d71321e5186d0ad8a17afd40c51a84117463beaca3679c7c6c"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh035",
+          "size": 346934948,
+          "sha256": "07c452432f9ceceba736e0af228f759cb9e16493c4b098ae2970d622bcbb90dc"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh035.json",
+          "size": 56983,
+          "sha256": "41fa3f7ddc02cc16c137fe9e0223c31c73aee5bcf15a8561dcb5a33b788e3245"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh04",
+          "size": 691249396,
+          "sha256": "e2515683276a55b3fa21a0881f6d3bbb03156da65c8ac48744dffb4c8437b7af"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh04.json",
+          "size": 123144,
+          "sha256": "85f4905c1c8fc92897e377bc46e7cfe1237ba006cf1d679fb9d954c47533494e"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh045",
+          "size": 671123756,
+          "sha256": "260874931bed88d828d63c0cfbc5101825be35f1ddcf658b62b3ec2b3d45c41e"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh045.json",
+          "size": 93206,
+          "sha256": "24c669c870dd48c5079f00dd53340a512d7d560567ea91eeaddaff56d4bf5de8"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh05",
+          "size": 633857248,
+          "sha256": "24c2bae31bf7c5899d6d6fbca23255aa809a20977cdafa0b52299ba93c724c10"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh05.json",
+          "size": 109190,
+          "sha256": "3d397947431ef4dd232b8a797d8fe3eceb1daa1bfc6b53b0d8e29e0d2b5412d9"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh06",
+          "size": 794441421,
+          "sha256": "8f447882c95f9a5745935da97aa2ac6c56423e5cbee37f38c430e771bfc9c9dc"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh06.json",
+          "size": 132067,
+          "sha256": "668afbd4844f03349892ca2ae1ab9195e1d817259f7843922bd966f4a7e9c1b0"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh07",
+          "size": 803875611,
+          "sha256": "3772c67bffde5add13ab7678d62fc17ff30978d9636e33f1e005911ff6360b4b"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh07.json",
+          "size": 131820,
+          "sha256": "667b61387009c7f4462568bad215e9535b71b208698d47c518162c2d4e0c170d"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh075",
+          "size": 291176701,
+          "sha256": "4b1ce17cfad65f6a6f1cae33f0a8304b53295b570578a3181fffe660dddf8c75"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh075.json",
+          "size": 31365,
+          "sha256": "db53f3778b88253e65fa92d792f360225b8c3e0797691b3d5a0ae7b5d0a61481"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh08",
+          "size": 981909176,
+          "sha256": "b78e98e828fef301b6794e875cedcee28df8de82c7ed43ac2947976f7644735e"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh08.json",
+          "size": 175603,
+          "sha256": "1fda24d538b3db314c8c91b5ef434e3d019e14bef5babb869b44fcf079121184"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh09",
+          "size": 760583259,
+          "sha256": "b8f4d55bff0055f36efe7be856fc572bf34998cfccce23b4ce61cd699b67f809"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh09.json",
+          "size": 125395,
+          "sha256": "c8ba935c36e0602aa2b5c75f72d43a0573d022e7ad54a646890f406428db2a25"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh10",
+          "size": 848341724,
+          "sha256": "d0d0466b6f5dcbc130308a3a7707d5e63f9bff3c2b81e0e77bcf83d4acd21aab"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh10.json",
+          "size": 136946,
+          "sha256": "41fb047d941fc19275695c1c4e534e260b7402d653f38105be8f18ef7874136d"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh105",
+          "size": 394754824,
+          "sha256": "15fe1dc04cd76269d7ded591dd119e320fa568633d5800b12276259d52e3c172"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh105.json",
+          "size": 62976,
+          "sha256": "3ff72fbe96a7b19ebfbaf3c9d7461d274701111f658728e5b4505487662ea7c1"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh11",
+          "size": 841980663,
+          "sha256": "10710d09c08af88fe56c237921e0e882dc8eee46dc63c42ab05f41ab140833fa"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh11.json",
+          "size": 143041,
+          "sha256": "5186c83bd44864998ff38ad95c5c0822ee2b59858a400bad73a6e8856f19ed79"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh12",
+          "size": 821439376,
+          "sha256": "7449bf6abd4b24c1c12e4091e538e0356bbb3879b3298e24e0bcf5ce8c4eff73"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh12.json",
+          "size": 138425,
+          "sha256": "f73b39987ca9629423220595bf23f711616dbe92f9aa63b66703b60d472d7bbb"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh125",
+          "size": 842585184,
+          "sha256": "73ff5c60d339d65d7c099a9c6fad5c2897004b17e1ce2128b91e8aa5c7261ff2"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swsh125.json",
+          "size": 131984,
+          "sha256": "626f34a6c579771e34346b729899faec7ceb4caa8b9bdeb95554f98fb8a3e98a"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swshp",
+          "size": 36406477,
+          "sha256": "bb45bf00efc6387267539b1f54d53eb58bc560c59f99f69e4bebaba38f352e01"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioCardSets_prefabLoader/mycurio-pokemon-swshp.json",
+          "size": 56963,
+          "sha256": "aa6eb2e3f2bf9382dfef6297f1e273a41be768cfce4156097df39ccc9b6f2a9a"
+        },
+        {
+          "path": "BepInEx/plugins/MyCurioProductsData/mycurio-pokemon-swsh.products.json",
+          "size": 2516,
+          "sha256": "cf1368a75c84b6a96308bdb1a7a734bd65106ef95b63ebdfceb9d0d0b9737f4a"
+        }
+      ],
+      "nexusMod": 1799,
+      "sha256": "bd96c78c935ffdc230e39637c94bfd0cf12d9d3df6f7db12822406fdeee76e7e",
+      "size": 11316008121,
+      "source": {
+        "type": "mega",
+        "url": "https://mega.nz/file/O2xRETyB#c56WSs1BWR5JyDLQ8Drq4yOueq1bQpOjlyAocY_NMfA"
       }
     }
   ]
