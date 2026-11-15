@@ -1,10 +1,10 @@
 {
   "format": 1,
   "name": "Our mod pack",
-  "version": "1.5",
+  "version": "1.6",
   "gameVersion": "1.03",
-  "notes": "dev mod to fix checkouts",
-  "published": "2026-11-15T16:06:32.566Z",
+  "notes": "Mod updates",
+  "published": "2026-11-15T16:29:04.637Z",
   "mods": [
     {
       "id": "bepinex",
@@ -4303,47 +4303,6 @@
       }
     },
     {
-      "id": "qol-upstairs",
-      "name": "Upstairs",
-      "version": "1.4.10",
-      "files": [
-        {
-          "path": "BepInEx/plugins/Upstairs/Upstairs.dll",
-          "size": 5663232,
-          "sha256": "e344f3ffb94b7078196e7b07a50281a4f2237b98f9e0742e68978f05b30fb514"
-        }
-      ],
-      "sha256": "243cce4da413db44359fb1a143c3c1c2a46915bd386bee64ac0bbb5bc0bcd9ed",
-      "size": 652629,
-      "source": {
-        "type": "qol",
-        "id": "upstairs"
-      }
-    },
-    {
-      "id": "qol-cardgrade-overhaul",
-      "name": "CardGrade Overhaul",
-      "version": "1.2.5",
-      "files": [
-        {
-          "path": "BepInEx/plugins/CardGradeOverhaul/CardGradeOverhaul.dll",
-          "size": 5796864,
-          "sha256": "cff3c6b517b58f0d111fe12971b09f6f6dec2360681214ad33d689ec035c76f5"
-        },
-        {
-          "path": "BepInEx/plugins/CardGradeOverhaul/README.txt",
-          "size": 12692,
-          "sha256": "a0f77181983a7a5f87e0227a476a4f1f53928beaddd7a778fb7aa1dd2cb65ab6"
-        }
-      ],
-      "sha256": "03844124fe8ca1f42c8159f7be68bff260e5eb0f10b7302525ac84f1e640669d",
-      "size": 4803481,
-      "source": {
-        "type": "qol",
-        "id": "cardgrade-overhaul"
-      }
-    },
-    {
       "id": "nexus-1748",
       "name": "Chubs Real Prices",
       "version": "0.3.88",
@@ -4399,29 +4358,6 @@
       "source": {
         "type": "mega",
         "url": "https://mega.nz/file/Wq4DCaLT#RUI5F7_uVpggCoCkxYSrKv-h4IWzW2FxxMZcIphbqBc"
-      }
-    },
-    {
-      "id": "qol-coop",
-      "name": "QOL Co-op",
-      "version": "1.0.7",
-      "files": [
-        {
-          "path": "BepInEx/plugins/QOLCoop/QOLCoop.dll",
-          "size": 1188864,
-          "sha256": "8b3cbfb5b412548ef04925b236747096edabb51a7b6420bda6b357b4a6f2b17b"
-        },
-        {
-          "path": "BepInEx/plugins/QOLCoop/README.txt",
-          "size": 7405,
-          "sha256": "e56dc7b93809d05276aec5c5138c472bae877965f6498a37bf8e7f93c3fd61ab"
-        }
-      ],
-      "sha256": "edeb4b806baef8d452e92b1c646259a482ef4b4d9a33fc29c0d610be7c21bb7f",
-      "size": 964149,
-      "source": {
-        "type": "qol",
-        "id": "coop"
       }
     },
     {
@@ -4897,85 +4833,6 @@
       }
     },
     {
-      "id": "qol-shopos",
-      "name": "QOL ShopOS",
-      "version": "1.2.3",
-      "files": [
-        {
-          "path": "BepInEx/plugins/ShopOS/API.md",
-          "size": 7793,
-          "sha256": "90bdf8e41f13f45f9811feb39ae4af4cbf5812c58ab78ee33665c5be9a4ecde0"
-        },
-        {
-          "path": "BepInEx/plugins/ShopOS/LICENSES.txt",
-          "size": 255494,
-          "sha256": "c93bc2ed8c48f202f46a14a96229a02f7db24a4539aac75c68a40547ce905d03"
-        },
-        {
-          "path": "BepInEx/plugins/ShopOS/README.txt",
-          "size": 13964,
-          "sha256": "4026032c3f2b1b75f9e580aeca484f3f03e6b3dbe9e5721ca23d08c87a9d4858"
-        },
-        {
-          "path": "BepInEx/plugins/ShopOS/ShopOS.dll",
-          "size": 4912128,
-          "sha256": "75f3f6ede6617627a1b21641c6417c0e6ba203871b033968ef9856c2406c6e00"
-        },
-        {
-          "path": "BepInEx/plugins/ShopOS/tools/qjs.exe",
-          "size": 2151363,
-          "sha256": "2aeabf0092c3262d6b2609824418f7dd7ed1f1df939f73b2b15645230cac0d77"
-        },
-        {
-          "path": "BepInEx/plugins/ShopOS/tools/yt-dlp.exe",
-          "size": 17840399,
-          "sha256": "66674953fe251b89f4d08c5f0e35e0728679bd67ab3d7d05c0562af101dd3e7a"
-        }
-      ],
-      "sha256": "2d65abeae3a6fec2d7899c3b183f2d7073c38d056fb9ace6664a8b1ca30ceafe",
-      "size": 22856000,
-      "source": {
-        "type": "qol",
-        "id": "shopos"
-      }
-    },
-    {
-      "id": "qol-furniture-overhaul",
-      "name": "Furniture Overhaul",
-      "version": "1.7.12",
-      "files": [
-        {
-          "path": "BepInEx/plugins/FurnitureOverhaul/FurnitureOverhaul.dll",
-          "size": 19841536,
-          "sha256": "9c145268ef1d11936a53c3d34f22aae4acee409aa7c611a7e94c2a725ea5ad32"
-        }
-      ],
-      "sha256": "260ca5e752e6e87bdd104c200068c016c6025787bc32e71f3756eb6fffdd07cf",
-      "size": 12335567,
-      "source": {
-        "type": "qol",
-        "id": "furniture-overhaul"
-      }
-    },
-    {
-      "id": "qol-build",
-      "name": "Build",
-      "version": "1.0.8",
-      "files": [
-        {
-          "path": "BepInEx/plugins/Build/Build.dll",
-          "size": 205312,
-          "sha256": "b10e2c5d57a78b998af7251bef55a235fcfc6341ddfe6e91cb5082f403d95243"
-        }
-      ],
-      "sha256": "72c8abae8e2efa4d94ccc18ec246036013747c32884eb54853430ffc5dcaad4f",
-      "size": 97596,
-      "source": {
-        "type": "qol",
-        "id": "build"
-      }
-    },
-    {
       "id": "qol-companion",
       "name": "QOL Companion",
       "version": "1.5.0",
@@ -5001,6 +4858,149 @@
       "source": {
         "type": "mega",
         "url": "https://mega.nz/file/W6ozELBJ#E6iQdq7veEwgzMQN7KVH-eenF_GM4ITLAbSsJdxsjkg"
+      }
+    },
+    {
+      "id": "qol-coop",
+      "name": "QOL Co-op",
+      "version": "1.0.8",
+      "files": [
+        {
+          "path": "BepInEx/plugins/QOLCoop/QOLCoop.dll",
+          "size": 1188864,
+          "sha256": "d2effb50f067e7f1ac561c1c169a43b67f1df84222ebeb80359833148a1a1ea1"
+        },
+        {
+          "path": "BepInEx/plugins/QOLCoop/README.txt",
+          "size": 7282,
+          "sha256": "b7325069c2b7e25fbaeab7aa72dddde63cd6239275ee2f415eec4d017fe7e91b"
+        }
+      ],
+      "sha256": "9ae6d4a540496cd05232c7c2b087d7c349dc3e1aef28cb3618c0186394f4ff3a",
+      "size": 964077,
+      "source": {
+        "type": "qol",
+        "id": "coop"
+      }
+    },
+    {
+      "id": "qol-shopos",
+      "name": "QOL ShopOS",
+      "version": "1.2.4",
+      "files": [
+        {
+          "path": "BepInEx/plugins/ShopOS/API.md",
+          "size": 7793,
+          "sha256": "90bdf8e41f13f45f9811feb39ae4af4cbf5812c58ab78ee33665c5be9a4ecde0"
+        },
+        {
+          "path": "BepInEx/plugins/ShopOS/LICENSES.txt",
+          "size": 255494,
+          "sha256": "c93bc2ed8c48f202f46a14a96229a02f7db24a4539aac75c68a40547ce905d03"
+        },
+        {
+          "path": "BepInEx/plugins/ShopOS/README.txt",
+          "size": 13643,
+          "sha256": "9cf978513766457184fe6d850d82ed01aa844e653271710f4154512a58f0f2a8"
+        },
+        {
+          "path": "BepInEx/plugins/ShopOS/ShopOS.dll",
+          "size": 4208640,
+          "sha256": "b3b2e57c3aae1c2e735b28366f4d7cf8d673e63e8b54255d2275f87a3f0253db"
+        },
+        {
+          "path": "BepInEx/plugins/ShopOS/tools/qjs.exe",
+          "size": 2151363,
+          "sha256": "2aeabf0092c3262d6b2609824418f7dd7ed1f1df939f73b2b15645230cac0d77"
+        },
+        {
+          "path": "BepInEx/plugins/ShopOS/tools/yt-dlp.exe",
+          "size": 17840399,
+          "sha256": "66674953fe251b89f4d08c5f0e35e0728679bd67ab3d7d05c0562af101dd3e7a"
+        }
+      ],
+      "sha256": "eebb6c82e779b3830fd2ebe64e72cee4b287bc917ff0019ecb3a5bb3fa31cb93",
+      "size": 22194781,
+      "source": {
+        "type": "qol",
+        "id": "shopos"
+      }
+    },
+    {
+      "id": "qol-upstairs",
+      "name": "Upstairs",
+      "version": "1.4.11",
+      "files": [
+        {
+          "path": "BepInEx/plugins/Upstairs/Upstairs.dll",
+          "size": 5663232,
+          "sha256": "0622e309531e8cdd488b796bf9f6ed9c975979c87cc3f470a8b442855602505c"
+        }
+      ],
+      "sha256": "1a497ecf67495e77f1a5eba088de11fc3f3d15c247a12f1a60ed8d97ee63331b",
+      "size": 652589,
+      "source": {
+        "type": "qol",
+        "id": "upstairs"
+      }
+    },
+    {
+      "id": "qol-furniture-overhaul",
+      "name": "Furniture Overhaul",
+      "version": "1.7.13",
+      "files": [
+        {
+          "path": "BepInEx/plugins/FurnitureOverhaul/FurnitureOverhaul.dll",
+          "size": 19854336,
+          "sha256": "f9cf99dfea995a5d5620b3f65dbd54cc10cf68e8f2a80ec131e7f80492437ed6"
+        }
+      ],
+      "sha256": "2c8539661ad79cebbb5548eb24003a22416c89bfaf55676015ac8b58bf3b34f8",
+      "size": 12342961,
+      "source": {
+        "type": "qol",
+        "id": "furniture-overhaul"
+      }
+    },
+    {
+      "id": "qol-cardgrade-overhaul",
+      "name": "CardGrade Overhaul",
+      "version": "1.2.6",
+      "files": [
+        {
+          "path": "BepInEx/plugins/CardGradeOverhaul/CardGradeOverhaul.dll",
+          "size": 5796864,
+          "sha256": "2e61436e2892f6261de02677bc71c9601704696709aa62db846112013e959377"
+        },
+        {
+          "path": "BepInEx/plugins/CardGradeOverhaul/README.txt",
+          "size": 12539,
+          "sha256": "324f30791db4cbf7bdb950fc94952245da5eee11455e5d349057d391ac21cb00"
+        }
+      ],
+      "sha256": "1a8d231727e1f3ac935207d554b653730886bedd4871191e448d877b9b96f36b",
+      "size": 4803407,
+      "source": {
+        "type": "qol",
+        "id": "cardgrade-overhaul"
+      }
+    },
+    {
+      "id": "qol-build",
+      "name": "Build",
+      "version": "1.0.9",
+      "files": [
+        {
+          "path": "BepInEx/plugins/Build/Build.dll",
+          "size": 205312,
+          "sha256": "ec31a0c3fce35ac4bfaf30a094271bc5e10fe8c2a897de8b0cca4d8ba927d5d4"
+        }
+      ],
+      "sha256": "4b08470c8bb6c22a9d87ed83cddb2fc4472db70d3a3bee8bc9c08fe7a85f32ae",
+      "size": 97560,
+      "source": {
+        "type": "qol",
+        "id": "build"
       }
     }
   ]
