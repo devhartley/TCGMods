@@ -1,10 +1,10 @@
 {
   "format": 1,
   "name": "Our mod pack",
-  "version": "1.4",
+  "version": "1.5",
   "gameVersion": "1.03",
-  "notes": "New mods + updates",
-  "published": "2026-11-14T00:54:22.635Z",
+  "notes": "dev mod to fix checkouts",
+  "published": "2026-11-15T16:06:29.783Z",
   "mods": [
     {
       "id": "bepinex",
@@ -4303,42 +4303,6 @@
       }
     },
     {
-      "id": "qol-events-weather",
-      "name": "QOL Events & Weather",
-      "version": "1.0.2",
-      "files": [
-        {
-          "path": "BepInEx/plugins/QOLEventsAndWeather/QOLEventsAndWeather.dll",
-          "size": 5705216,
-          "sha256": "0edc1ce83b1495733cd1abb3a32cdfbe1aa01527b252b4cd2191e43744c4912a"
-        }
-      ],
-      "sha256": "c21e6b2f659b24b4904f28296a42f6133e5fc0aa1ba0d9e2535d4b8b81d753d9",
-      "size": 4983107,
-      "source": {
-        "type": "qol",
-        "id": "events-weather"
-      }
-    },
-    {
-      "id": "qol-furniture-overhaul",
-      "name": "Furniture Overhaul",
-      "version": "1.7.11",
-      "files": [
-        {
-          "path": "BepInEx/plugins/FurnitureOverhaul/FurnitureOverhaul.dll",
-          "size": 19833344,
-          "sha256": "d51397c70a0ec6e60ac24981914be638e153962b93c3be2871895307bd5b08fa"
-        }
-      ],
-      "sha256": "3c6678fe9fcf4842e303715b4bd54f2b7fc7f9e89c1fbca86778f0f0eaedc913",
-      "size": 12335330,
-      "source": {
-        "type": "qol",
-        "id": "furniture-overhaul"
-      }
-    },
-    {
       "id": "qol-upstairs",
       "name": "Upstairs",
       "version": "1.4.10",
@@ -4354,67 +4318,6 @@
       "source": {
         "type": "qol",
         "id": "upstairs"
-      }
-    },
-    {
-      "id": "qol-pallet-delivery",
-      "name": "Pallet Delivery",
-      "version": "1.2.4",
-      "files": [
-        {
-          "path": "BepInEx/plugins/PalletDelivery/PalletDelivery.dll",
-          "size": 215552,
-          "sha256": "628edbc8b18eb715185fa93ea74c5ea6dc0754f803f1da66eca98ddf9120e0ab"
-        }
-      ],
-      "sha256": "ec36d566762a51667047884c91636a8845c2cd1328b22c82d0e8c55a2978a9f5",
-      "size": 97691,
-      "source": {
-        "type": "qol",
-        "id": "pallet-delivery"
-      }
-    },
-    {
-      "id": "qol-shopos",
-      "name": "QOL ShopOS",
-      "version": "1.2.2",
-      "files": [
-        {
-          "path": "BepInEx/plugins/ShopOS/API.md",
-          "size": 7793,
-          "sha256": "90bdf8e41f13f45f9811feb39ae4af4cbf5812c58ab78ee33665c5be9a4ecde0"
-        },
-        {
-          "path": "BepInEx/plugins/ShopOS/LICENSES.txt",
-          "size": 255494,
-          "sha256": "c93bc2ed8c48f202f46a14a96229a02f7db24a4539aac75c68a40547ce905d03"
-        },
-        {
-          "path": "BepInEx/plugins/ShopOS/README.txt",
-          "size": 14063,
-          "sha256": "79e3097965946cf93929f2c1acdab0b319e644e879c51d7e656adf7e1a1dd982"
-        },
-        {
-          "path": "BepInEx/plugins/ShopOS/ShopOS.dll",
-          "size": 4911616,
-          "sha256": "67beffa8f7a4de64b4afbba83148a366d66a29e2dbf39b82145feebfac0836d6"
-        },
-        {
-          "path": "BepInEx/plugins/ShopOS/tools/qjs.exe",
-          "size": 2151363,
-          "sha256": "2aeabf0092c3262d6b2609824418f7dd7ed1f1df939f73b2b15645230cac0d77"
-        },
-        {
-          "path": "BepInEx/plugins/ShopOS/tools/yt-dlp.exe",
-          "size": 17840399,
-          "sha256": "66674953fe251b89f4d08c5f0e35e0728679bd67ab3d7d05c0562af101dd3e7a"
-        }
-      ],
-      "sha256": "ef57ab59b85e3ba507614ec01eb8b4b6623d5732759c01f54faa3975d69c2f5e",
-      "size": 22855695,
-      "source": {
-        "type": "qol",
-        "id": "shopos"
       }
     },
     {
@@ -4496,24 +4399,6 @@
       "source": {
         "type": "mega",
         "url": "https://mega.nz/file/Wq4DCaLT#RUI5F7_uVpggCoCkxYSrKv-h4IWzW2FxxMZcIphbqBc"
-      }
-    },
-    {
-      "id": "qol-purchase-overhaul",
-      "name": "Purchase Overhaul",
-      "version": "1.3.5",
-      "files": [
-        {
-          "path": "BepInEx/plugins/PurchaseOverhaul/PurchaseOverhaul.dll",
-          "size": 479232,
-          "sha256": "0351b4e5607b69e6d86bd3b4e964741f07cf21dd9c4220eb17b69cedea6a0867"
-        }
-      ],
-      "sha256": "0e5e1e0c1125b51583adee86afb609d82b96f4f0623e516b7caff9f1161dd7b9",
-      "size": 357609,
-      "source": {
-        "type": "qol",
-        "id": "purchase-overhaul"
       }
     },
     {
@@ -4955,6 +4840,167 @@
       "source": {
         "type": "mega",
         "url": "https://mega.nz/file/O2xRETyB#c56WSs1BWR5JyDLQ8Drq4yOueq1bQpOjlyAocY_NMfA"
+      }
+    },
+    {
+      "id": "qol-events-weather",
+      "name": "QOL Events & Weather",
+      "version": "1.0.3",
+      "files": [
+        {
+          "path": "BepInEx/plugins/QOLEventsAndWeather/QOLEventsAndWeather.dll",
+          "size": 5706240,
+          "sha256": "62e9d0b7022a83df11ff8d25a19a7866a88a2813126be8a503d5373283e147d5"
+        }
+      ],
+      "sha256": "df9837759382c7f98741928481d8c77a78a63bd249eece98bc0ba9988dba8c61",
+      "size": 4983472,
+      "source": {
+        "type": "qol",
+        "id": "events-weather"
+      }
+    },
+    {
+      "id": "qol-pallet-delivery",
+      "name": "Pallet Delivery",
+      "version": "1.2.5",
+      "files": [
+        {
+          "path": "BepInEx/plugins/PalletDelivery/PalletDelivery.dll",
+          "size": 254976,
+          "sha256": "ac3272ce010c37cf01c6d3364802a957948ec767bcf1cf273cc5d3705c08c3af"
+        }
+      ],
+      "sha256": "472e8240d5d58f3f9da46337b42b8ab44ce805bb5a878be4f05b9a9a268e9f9b",
+      "size": 114103,
+      "source": {
+        "type": "qol",
+        "id": "pallet-delivery"
+      }
+    },
+    {
+      "id": "qol-purchase-overhaul",
+      "name": "Purchase Overhaul",
+      "version": "1.3.6",
+      "files": [
+        {
+          "path": "BepInEx/plugins/PurchaseOverhaul/PurchaseOverhaul.dll",
+          "size": 485376,
+          "sha256": "dfa697c3a200af75c8db0cc9bc622b0da71674c9593b9f705fceeb1e486f7ce4"
+        }
+      ],
+      "sha256": "9fd0a8044db4b4d629226c831425b2528ecff3f5a0802b7b27a5f8d4c4b65f7d",
+      "size": 360314,
+      "source": {
+        "type": "qol",
+        "id": "purchase-overhaul"
+      }
+    },
+    {
+      "id": "qol-shopos",
+      "name": "QOL ShopOS",
+      "version": "1.2.3",
+      "files": [
+        {
+          "path": "BepInEx/plugins/ShopOS/API.md",
+          "size": 7793,
+          "sha256": "90bdf8e41f13f45f9811feb39ae4af4cbf5812c58ab78ee33665c5be9a4ecde0"
+        },
+        {
+          "path": "BepInEx/plugins/ShopOS/LICENSES.txt",
+          "size": 255494,
+          "sha256": "c93bc2ed8c48f202f46a14a96229a02f7db24a4539aac75c68a40547ce905d03"
+        },
+        {
+          "path": "BepInEx/plugins/ShopOS/README.txt",
+          "size": 13964,
+          "sha256": "4026032c3f2b1b75f9e580aeca484f3f03e6b3dbe9e5721ca23d08c87a9d4858"
+        },
+        {
+          "path": "BepInEx/plugins/ShopOS/ShopOS.dll",
+          "size": 4912128,
+          "sha256": "75f3f6ede6617627a1b21641c6417c0e6ba203871b033968ef9856c2406c6e00"
+        },
+        {
+          "path": "BepInEx/plugins/ShopOS/tools/qjs.exe",
+          "size": 2151363,
+          "sha256": "2aeabf0092c3262d6b2609824418f7dd7ed1f1df939f73b2b15645230cac0d77"
+        },
+        {
+          "path": "BepInEx/plugins/ShopOS/tools/yt-dlp.exe",
+          "size": 17840399,
+          "sha256": "66674953fe251b89f4d08c5f0e35e0728679bd67ab3d7d05c0562af101dd3e7a"
+        }
+      ],
+      "sha256": "2d65abeae3a6fec2d7899c3b183f2d7073c38d056fb9ace6664a8b1ca30ceafe",
+      "size": 22856000,
+      "source": {
+        "type": "qol",
+        "id": "shopos"
+      }
+    },
+    {
+      "id": "qol-furniture-overhaul",
+      "name": "Furniture Overhaul",
+      "version": "1.7.12",
+      "files": [
+        {
+          "path": "BepInEx/plugins/FurnitureOverhaul/FurnitureOverhaul.dll",
+          "size": 19841536,
+          "sha256": "9c145268ef1d11936a53c3d34f22aae4acee409aa7c611a7e94c2a725ea5ad32"
+        }
+      ],
+      "sha256": "260ca5e752e6e87bdd104c200068c016c6025787bc32e71f3756eb6fffdd07cf",
+      "size": 12335567,
+      "source": {
+        "type": "qol",
+        "id": "furniture-overhaul"
+      }
+    },
+    {
+      "id": "qol-build",
+      "name": "Build",
+      "version": "1.0.8",
+      "files": [
+        {
+          "path": "BepInEx/plugins/Build/Build.dll",
+          "size": 205312,
+          "sha256": "b10e2c5d57a78b998af7251bef55a235fcfc6341ddfe6e91cb5082f403d95243"
+        }
+      ],
+      "sha256": "72c8abae8e2efa4d94ccc18ec246036013747c32884eb54853430ffc5dcaad4f",
+      "size": 97596,
+      "source": {
+        "type": "qol",
+        "id": "build"
+      }
+    },
+    {
+      "id": "qol-companion",
+      "name": "QOL Companion",
+      "version": "1.5.0",
+      "files": [
+        {
+          "path": "BepInEx/plugins/dev plugin/LiftTiming.cs",
+          "size": 2858,
+          "sha256": "1534e09fc2fb6077770c179a01fe8d1f576e49ac6a3df1a692bada0a46254683"
+        },
+        {
+          "path": "BepInEx/plugins/dev plugin/QolCompanion.dll",
+          "size": 27648,
+          "sha256": "458e672b2e7a3b57b39a0d791c6f26d8d1124e4fb6d984f98092482a8293648a"
+        },
+        {
+          "path": "BepInEx/plugins/dev plugin/ScannedQuickFill.cs",
+          "size": 11403,
+          "sha256": "e765a5fed7d3f6243852daed18d078628bf7b5fa773d0c90e25a92d3cb0ddc67"
+        }
+      ],
+      "sha256": "3efdbf2122afcfbb4435f989173ebf6c74365e32081caca6499990f703932880",
+      "size": 16892,
+      "source": {
+        "type": "mega",
+        "url": "https://mega.nz/file/W6ozELBJ#E6iQdq7veEwgzMQN7KVH-eenF_GM4ITLAbSsJdxsjkg"
       }
     }
   ]
