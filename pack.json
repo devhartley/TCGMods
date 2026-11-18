@@ -4,7 +4,7 @@
   "version": "1.8",
   "gameVersion": "1.03",
   "notes": "Mod updates",
-  "published": "2026-11-18T22:08:28.908Z",
+  "published": "2026-11-18T22:23:49.898Z",
   "mods": [
     {
       "id": "bepinex",
@@ -3373,12 +3373,11 @@
         }
       ],
       "nexusMod": 1897,
-      "sha256": "8eb2290b474e6cb303d04054143b16d0e752d0b8647c78c97d47a25f6935e24e",
-      "size": 3564514199,
+      "sha256": "a1a5c6046486ec58e39ee71717e67a579bfb28acec71ae83eb94098c61a8d035",
+      "size": 3345528699,
       "source": {
-        "type": "nexus",
-        "mod": 1897,
-        "file": 10235
+        "type": "mega",
+        "url": "https://mega.nz/file/f7RWHQAS#27Urn8Bo3Ud2KnQlQNaoUu91cfg2M4lENgi8uwAAr9o"
       }
     },
     {
@@ -3406,12 +3405,11 @@
         }
       ],
       "nexusMod": 1897,
-      "sha256": "0b494f1ed84f743602a9cedd5046dc01f4317e0aeed3452458a997ab5f685b9d",
-      "size": 8996855,
+      "sha256": "0bcd764f61fc513ad016b4ff33d0ff5c9155c3e61b1661354760c0ff638cb110",
+      "size": 8172936,
       "source": {
-        "type": "nexus",
-        "mod": 1897,
-        "file": 10218
+        "type": "mega",
+        "url": "https://mega.nz/file/q3pEETTJ#NnoY7BO5QF83TgO6hvIK2U12BfaKfNeGu6JVTRKOOOs"
       }
     },
     {
