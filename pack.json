@@ -1,10 +1,10 @@
 {
   "format": 1,
   "name": "Our mod pack",
-  "version": "1.7",
+  "version": "1.8",
   "gameVersion": "1.03",
   "notes": "Mod updates",
-  "published": "2026-11-18T21:12:47.297Z",
+  "published": "2026-11-18T22:08:28.908Z",
   "mods": [
     {
       "id": "bepinex",
@@ -2902,7 +2902,7 @@
       "size": 22,
       "source": {
         "type": "mega",
-        "url": "https://mega.nz/file/jzoVjAab#cTn81FFmOevidsHmtDdZAhwqQuo9IyHQfhBWdv16v-g"
+        "url": "https://mega.nz/file/WnAjTQDT#0GMnwB3dZPPE9j3ySOec4rrF9LGOhPYT43i5ZYQn3eE"
       }
     },
     {
@@ -2917,7 +2917,7 @@
       "size": 22,
       "source": {
         "type": "mega",
-        "url": "https://mega.nz/file/GmB2FQjA#psHT6JxYCcM0VZUTolVRjzNMuL76C5n51gdeB6cQnzA"
+        "url": "https://mega.nz/file/b7gmWbAI#bVNoUWnAcfrBbo4uBCSeiKyE2Ks-mk_ILEd_rTrhGSo"
       }
     },
     {
@@ -3065,11 +3065,12 @@
         }
       ],
       "nexusMod": 1887,
-      "sha256": "5b518d7e20c4747a2535f5d6e475249a737555e141d8a8cd6dd46c107da13856",
-      "size": 1138238461,
+      "sha256": "d7dc576c61c01792a5a2952d4ef919384027108f1941b3f0312d83c1c129e270",
+      "size": 1197603031,
       "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/jmpgxYZC#62plSY0Ikz6jXsyyjKUW93BlzwBMkwk3g_yyNkvlwQU"
+        "type": "nexus",
+        "mod": 1887,
+        "file": 10279
       }
     },
     {
@@ -3405,11 +3406,12 @@
         }
       ],
       "nexusMod": 1897,
-      "sha256": "ac8138d2793a3c4bffd4b6c37a1bbb126d07b5d902c7f40531188ad2d0352945",
-      "size": 8172936,
+      "sha256": "0b494f1ed84f743602a9cedd5046dc01f4317e0aeed3452458a997ab5f685b9d",
+      "size": 8996855,
       "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/GuAiyarS#Sf8dk_0JwjP9PpBrwczqh-_ZMdc3uqAzbLIRwhqejxc"
+        "type": "nexus",
+        "mod": 1897,
+        "file": 10218
       }
     },
     {
@@ -3809,7 +3811,7 @@
       "size": 22,
       "source": {
         "type": "mega",
-        "url": "https://mega.nz/file/PqJWjDJL#XrH7V9QqlUg3HioAS0sCn1JfYsvRpExyrPWc54Z4h-o"
+        "url": "https://mega.nz/file/ziowERIS#dlGl_MdHN_arP7XDqTGLz4Ob2XhsFHQqZllcdRFpFak"
       }
     },
     {
@@ -3997,12 +3999,11 @@
         }
       ],
       "nexusMod": 1732,
-      "sha256": "51e4afc6c686fb1ff2d0e1c575130b91392df4fa49cc319fed160f871736065a",
-      "size": 2780088837,
+      "sha256": "20ae9514d49aeb31b75fc39759ee1a89a9eb8a963918b7a7eeee2b1a90c33eb7",
+      "size": 2646600455,
       "source": {
-        "type": "nexus",
-        "mod": 1732,
-        "file": 10712
+        "type": "mega",
+        "url": "https://mega.nz/file/TmAzgJZC#VqeBVRl-sb3ZHWlCJ3vflbsS2pwWaEL_4b3CEAEIoiI"
       }
     },
     {
