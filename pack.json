@@ -1,10 +1,10 @@
 {
   "format": 1,
   "name": "Our mod pack",
-  "version": "2.0-rebuild-2ee219d0",
+  "version": "2.1",
   "gameVersion": "1.03",
-  "notes": "Mod updates",
-  "published": "2026-11-20T21:57:35.385Z",
+  "notes": "Update on grade exchange",
+  "published": "2026-11-22T17:26:35.657Z",
   "baseline": "2ee219d0-b871-42b6-b82a-c575561486d7",
   "mods": [
     {
@@ -619,17 +619,6 @@
       }
     },
     {
-      "id": "grading-company-exchange",
-      "name": "Grading Company Exchange",
-      "version": "0.1.27",
-      "sha256": "f1369996ea3a9b98e5de7a360fa40dd2db4e299536ff739a9ff9dd4f785238d4",
-      "size": 41038,
-      "source": {
-        "type": "mega",
-        "url": "https://mega.nz/file/H3RQFQzA#mZhsmgwWMRTvXEdP1VTypgomPxsa1DPdQEHIzM2x8o0"
-      }
-    },
-    {
       "id": "nexus-1799-10430",
       "name": "Pokemon TCG - Sword and Shield Era (SWSHP - Black Star Promos and Collections)",
       "version": "1.1.0",
@@ -970,6 +959,17 @@
       "source": {
         "type": "mega",
         "url": "https://mega.nz/file/r6RHCayb#YNK_oqN0Xshd8Iubk1xMi4fowOTeN8Sg6BwQpchvTfo"
+      }
+    },
+    {
+      "id": "grading-company-exchange",
+      "name": "Grading Company Exchange",
+      "version": "0.1.30",
+      "sha256": "6b77ff701b9b01ec31a0baa561673ee2cc9376960d1d1ef4a3892d64790780ba",
+      "size": 43919,
+      "source": {
+        "type": "mega",
+        "url": "https://mega.nz/file/rvYzhTLQ#9vYN_YRusYnGR0A58eHEm-yQJPRlMjQD4-MXafdT8g8"
       }
     }
   ]
