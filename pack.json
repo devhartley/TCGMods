@@ -1,10 +1,10 @@
 {
   "format": 1,
   "name": "Our mod pack",
-  "version": "2.1",
+  "version": "2.11",
   "gameVersion": "1.03",
-  "notes": "Update on grade exchange",
-  "published": "2026-11-22T17:27:47.753Z",
+  "notes": "Update on grade exchange for pristine",
+  "published": "2026-11-22T17:41:27.648Z",
   "baseline": "2ee219d0-b871-42b6-b82a-c575561486d7",
   "mods": [
     {
@@ -964,12 +964,12 @@
     {
       "id": "grading-company-exchange",
       "name": "Grading Company Exchange",
-      "version": "0.1.30",
-      "sha256": "6b77ff701b9b01ec31a0baa561673ee2cc9376960d1d1ef4a3892d64790780ba",
-      "size": 43919,
+      "version": "0.1.31",
+      "sha256": "4d1561535a69c73e279c1bb339e30c4e1d05e3632a00b9c02e5e7cac1495b8d5",
+      "size": 44372,
       "source": {
         "type": "mega",
-        "url": "https://mega.nz/file/rvYzhTLQ#9vYN_YRusYnGR0A58eHEm-yQJPRlMjQD4-MXafdT8g8"
+        "url": "https://mega.nz/file/yuBDEBBL#-UeYSXJQ0lIhyeVAcjWmKWOmke_iQPXsGfuScDMH2rU"
       }
     }
   ]
